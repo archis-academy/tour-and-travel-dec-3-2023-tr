@@ -144,6 +144,11 @@ button h6{
     position: relative;
     right: 15px;
     bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    font-size: 22px;
 }
 
 /* Button Finish */

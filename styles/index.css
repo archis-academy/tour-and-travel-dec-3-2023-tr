@@ -15,81 +15,54 @@
 /* General Settings Finish */
 
 
-.container-wrapper .image,
-.description-text{
+.honeymoon-wrapper .honeymoon-image,
+.honeymoon-description-text{
     display: flex;
-    top: 200px;
-    left: 100px;
+    top: 50px;
+    position: absolute;
+    left: 50px;
+    text-align: left;
 }
 
-h3{
-    max-height: 22px;
+.honeymoon-description-text{
+    position: absolute;
+    margin-top: 100px;
 }
-
-
 
 /* İmage Start */
 
-.plus-effects-two,
- .plus-effects-three{
-   position: relative;
+.plus-effects-honeymoon-two{
+   display: grid;
+   grid-template-columns: auto auto;
+   column-gap: 20px;
+}
+
+.plus-effects,
+.plus-effects-honeymoon{
    display: flex;
-   flex-direction: column;
    gap: 20px;
-   position: relative;
-   right: 1205px;
-   bottom: 150px;
-   color : #E5E5E5;
    font-family: 'Roboto', sans-serif;
+   position: absolute;
+   top: 640px;
+   left: 472px;
+   color: #E5E5E5;
+   font-size: 20px;
 }
 
-.plus-effects-three{
-    position: relative;
-    right: 1234px;
+.plus-effects,
+.plus-honey-effects-color{
+    color: #DF6951;
 }
 
-.plus-effects-three .colorh3{
-    color :  #FF7152;
-}
 
-.plus-effects-two{
-    position: relative;
-    right: 1195px;
-}
-
-.plus-effects .hcolor{
-    color :  #FF7152;
-}
-
-.plus-effects-two .color4{
-    color :  #FF7152;
-}
-
-.plus-effects{
-    display: flex;
-    gap: 18px;
-    position: relative;
-    right: 1185px;
-    top: 10px;
-    color : #E5E5E5;
-    font-family: 'Roboto', sans-serif;
-}
-
-.image h3{
-    left: 585px;
-    position: relative;
-    top: 630px;
-   
-}
-
-.image{
+.honeymoon-image{
     margin-top: 100px;
     margin-left: 320px;
     width: 700px;
     
 }
 
-.image img{
+.honeymoon-image img{
     width: 580px;
     height: 630px;
 }
@@ -98,7 +71,7 @@ h3{
 
 /* Description Text Start */
 
-.description-text{
+.honeymoon-description-text{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -106,19 +79,19 @@ h3{
     height: 350px;
 }
 
-.description-text p{
+.honeymoon-description-text .honeymoon-desc-etlabore{
     width: 500px;
     color: #000000;
     font-family: 'Poppins', sans-serif;
 
 }
 
-.description-text h5 {
+.honeymoon-description-text .honeymoon-spacials-text {
     color: #DF6951;
     font-family: 'Poppins', sans-serif;
 }
 
-.description-text h1{
+.honeymoon-description-text .romantic-tropical-honey{
     color: #181E4B;
     font-family: 'Volkhov', serif;
 }
@@ -127,7 +100,7 @@ h3{
 
 /* Button Start */
 
-button{
+.wiew-packages-btn{
     background-color: #DF6951;
     border : none;
     max-width: 150px;
@@ -140,14 +113,14 @@ button{
     font-size: 21px;
 }
 
-button h6{
+.wiew-packages-btn .wiew-packages-text{
     position: relative;
     right: 15px;
     bottom: 5px;
     transition: all 0.3s ease;
 }
 
-button:hover{
+.wiew-packages-btn:hover{
     font-size: 22px;
 }
 

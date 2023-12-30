@@ -18,30 +18,29 @@
     display: flex;
     gap: 70px;
     justify-content: center;
-    text-align: start;
     align-items: center;
     position: absolute;
-    left: 200px;
-    bottom: 70px;
+    left: 100px;
+    top: 30px;
 }
 
 /* İmage Start */
 
-.honeymoon-image img{
-    width: 750px;
-    height: 800px;
+.honeymoon-image .honeymoon-img{
+   width: 570px;
+   position: relative;
+   height: 530px;
 }
 
 /* İmage Finish */
 
 /* Honeymoon Plus Effect Start */
 .honeymoon-plus-effects{
-    position: relative;
+    position: absolute;
     display: flex;
     gap: 20px;
     font-family: 'Roboto', sans-serif;
-    left: 636px;
-    bottom: -5px;
+    left: 458px;
     color: #E5E5E5;
     font-size: 22px;
 }
@@ -53,9 +52,9 @@
     grid-template-columns: auto auto;
     position: absolute;
     gap: 20px;
-    left: 734px;
+    right: 639px;
     font-size: 22px;
-    bottom:28px;
+    bottom:10px;
     color: #E5E5E5;
 }
 
@@ -76,7 +75,7 @@
 .honeymoon-description-text{
     font-family: 'Poppins', sans-serif;
     color: #000000;
-    width: 580px;
+    width:600px;
     height: 400px;
 }
 
@@ -89,7 +88,7 @@
 .honeymoon-description-text .romantic-tropical-honey{
     color: #181E4B;
     font-family: 'Volkhov', serif;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .honeymoon-description-text,

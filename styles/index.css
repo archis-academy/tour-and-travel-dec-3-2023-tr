@@ -40,7 +40,7 @@
     display: flex;
     gap: 20px;
     font-family: 'Roboto', sans-serif;
-    left: 458px;
+    right: 665px;
     color: #E5E5E5;
     font-size: 22px;
 }
@@ -52,9 +52,9 @@
     grid-template-columns: auto auto;
     position: absolute;
     gap: 20px;
-    right: 639px;
+    right: 665px;
     font-size: 22px;
-    bottom:10px;
+    bottom:1px;
     color: #E5E5E5;
 }
 
@@ -75,8 +75,7 @@
 .honeymoon-description-text{
     font-family: 'Poppins', sans-serif;
     color: #000000;
-    width:600px;
-    height: 400px;
+    height: 300px;
 }
 
 .honeymoon-description-text .honeymoon-spacials-text {

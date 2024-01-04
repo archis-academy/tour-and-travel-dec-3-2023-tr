@@ -1,119 +1,119 @@
 /* General Settings Start */
 
-@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900;1000;&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 
-
-*{
-    margin : 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 /* General Settings Finish */
 
-.honeymoon-wrapper{
-    display: flex;
-    gap: 70px;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 100px;
-    top: 30px;
+.honeymoon-project-container {
+  display: flex;
+  justify-content: center;
+}
+
+.honeymoon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
 }
 
 /* İmage Start */
 
-.honeymoon-image .honeymoon-img{
-   width: 570px;
-   position: relative;
-   height: 530px;
+.honeymoon-image .honeymoon-img {
+  width: 100%;
+  padding-left: 90px;
+  padding-top: 50px;
+}
+
+.honeymoon-image {
+  position: relative;
 }
 
 /* İmage Finish */
 
 /* Honeymoon Plus Effect Start */
-.honeymoon-plus-effects{
-    position: absolute;
-    display: flex;
-    gap: 20px;
-    font-family: 'Roboto', sans-serif;
-    right: 665px;
-    color: #E5E5E5;
-    font-size: 22px;
+.honeymoon-plus-effects {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  font-family: "Roboto", sans-serif;
+  right: -24px;
+  color: #e5e5e5;
+  font-size: 14px;
+}
+.honeymoon-plus-effect-two {
+  display: grid;
+  row-gap: 20px;
+  font-family: "Roboto", sans-serif;
+  grid-template-columns: auto auto;
+  position: absolute;
+  gap: 20px;
+  right: -24px;
+  font-size: 14px;
+  bottom: 1px;
+  color: #e5e5e5;
 }
 
-.honeymoon-plus-effect-two{
-    display: grid;
-    row-gap: 20px;
-    font-family: 'Roboto', sans-serif;
-    grid-template-columns: auto auto;
-    position: absolute;
-    gap: 20px;
-    right: 665px;
-    font-size: 22px;
-    bottom:1px;
-    color: #E5E5E5;
+.honeymoon-plus-effects .honeymoon-plus-effect-color {
+  color: #df6951;
 }
 
-.honeymoon-plus-effects .honeymoon-plus-effect-color{
-    color: #DF6951;
-}
-
-.honeymoon-plus-effect-two .honeymoon-plus-effect-color{
-    color: #DF6951;
-    
-    
+.honeymoon-plus-effect-two .honeymoon-plus-effect-color {
+  color: #df6951;
 }
 
 /* Honeymoon Plus Effect Finish */
 
 /* Description Text Start */
 
-.honeymoon-description-text{
-    font-family: 'Poppins', sans-serif;
-    color: #000000;
-    position: relative;
-    bottom: 80px;
+.honeymoon-description-text {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  padding: 145px;
 }
 
 .honeymoon-description-text .honeymoon-spacials-text {
-    color: #DF6951;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    height: 30px;
+  color: #df6951;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  padding-bottom: 10px;
 }
 
-.honeymoon-description-text .romantic-tropical-honey{
-    color: #181E4B;
-    font-family: 'Volkhov', serif;
-    font-size: 30px;
-    letter-spacing: 3.5px;
-    height: 90px;
+.honeymoon-description-text .romantic-tropical-honey {
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 40px;
+  padding-bottom: 15px;
 }
 
 .honeymoon-description-text,
-.honeymoon-desc-etlabore{
-    font-size: 16px;
-    height: 90px;
+.honeymoon-desc-etlabore {
+  font-size: 12px;
+  padding-bottom: 10px;
+  font-family: "Poppins", sans-serif;
 }
 /* Description Finish */
 
-
 /* Button Start */
 
-.wiew-packages-btn{
-    background-color: #DF6951;
-    border : none;
-    border-radius: 10px;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    cursor: pointer;
-    text-align: center;
-    font-size: 21px;
-    padding: 15px;
+.wiew-packages-btn {
+  background-color: #df6951;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  text-align: center;
+  font-size: 21px;
+  padding: 15px;
 }
 
 /* Button Finish */

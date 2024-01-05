@@ -14,19 +14,15 @@
 /* General Settings Finish */
 
 .honeymoon-project-container {
-  display: flex;
+  padding: 50px;
   justify-content: center;
-  align-items: center;
+  display: flex;
 }
 
 .honeymoon-wrapper {
   display: flex;
-  gap: 100px;
-  justify-content: center;
+  gap: 150px;
   align-items: center;
-  text-align: left;
-  padding-left: 100px;
-  padding-top: 40px;
 }
 
 /* İmage Start */
@@ -47,11 +43,12 @@
   display: flex;
   gap: 20px;
   font-family: "Roboto", sans-serif;
-  right: -25px;
+  right: -22px;
   color: #e5e5e5;
   font-size: 14px;
   bottom: -20px;
 }
+
 .honeymoon-plus-effect-two {
   display: grid;
   row-gap: 20px;
@@ -59,17 +56,17 @@
   grid-template-columns: auto auto;
   position: absolute;
   gap: 20px;
-  right: -25px;
+  right: -22px;
   font-size: 14px;
   bottom: 1px;
   color: #e5e5e5;
 }
 
-.honeymoon-plus-effects .honeymoon-plus-effect-color {
+.honeymoon-plus-effect-color {
   color: #df6951;
 }
 
-.honeymoon-plus-effect-two .honeymoon-plus-effect-color {
+.honeymoon-plus-effect-color {
   color: #df6951;
 }
 
@@ -77,30 +74,22 @@
 
 /* Description Text Start */
 
-.honeymoon-description-text {
-  font-family: "Poppins", sans-serif;
-  color: #000000;
-  
-  
-}
-
-.honeymoon-description-text .honeymoon-spacials-text {
+.honeymoon-spacials-text {
   color: #df6951;
   font-family: "Poppins", sans-serif;
   font-size: 17px;
   padding-bottom: 10px;
 }
 
-.honeymoon-description-text .romantic-tropical-honey {
+.romantic-tropical-honey {
   color: #181e4b;
   font-family: "Volkhov", serif;
-  font-size: 35px;
+  font-size: 50px;
   padding-bottom: 10px;
 }
 
-.honeymoon-description-text,
 .honeymoon-desc-etlabore {
-  font-size: 15px;
+  font-size: 17px;
   font-family: "Poppins", sans-serif;
   padding-bottom: 15px;
 }
@@ -118,6 +107,12 @@
   text-align: center;
   font-size: 19px;
   padding: 15px;
+  transition: all 0.3s ease;
 }
+
+.wiew-packages-btn:hover{
+    background-color: #b13b23;
+}
+
 
 /* Button Finish */

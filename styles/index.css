@@ -1,0 +1,132 @@
+/* General Settings Start */
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.promotion-explore-container {
+  display: flex;
+}
+
+.black-color-for-opacity {
+  height: 399px;
+  background: rgb(30, 30, 30);
+}
+
+.black-color-for-opacity-cities {
+  background: rgb(30, 30, 30);
+  position: absolute;
+}
+/* General Settings Finish */
+
+/* Nature İmage Start */
+
+.explore-nature-img {
+  position: relative;
+  opacity: 0.6;
+}
+
+/* Nature İmage Finish */
+
+/* Nature Description Text Start */
+
+.explore-description-text {
+  position: absolute;
+  color: #ffffff;
+  line-height: 40px;
+  top: 140px;
+  left: 300px;
+  text-align: center;
+}
+
+.nature-line-effect {
+  position: absolute;
+  top: 222px;
+  left: 550px;
+}
+
+.nature-promotion-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: #ffefec;
+}
+
+.explore-nature-text {
+  font-family: "Volkhov", serif;
+  padding-bottom: 30px;
+  font-size: 50px;
+}
+
+/* Nature Description Finish */
+
+/* Nature Button Start */
+.wiew-packages-btn {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #fff;
+  padding: 15px;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Nature Button Finish */
+
+/* Cities İmage Start */
+
+.explore-cities-img {
+  float: right;
+  opacity: 0.6;
+}
+
+/* Cities İmage Finish */
+
+/* Cities Description Text Start */
+
+.explore-description-text-cities {
+  right: 300px;
+  line-height: 40px;
+  top: 140px;
+  text-align: center;
+  position: absolute;
+}
+
+.cities-line-effect {
+  position: absolute;
+  right: 200px;
+  top: 219px;
+}
+
+.cities-promotion-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  color: #ffefec;
+}
+
+.explore-cities-text {
+  font-family: "Volkhov", serif;
+  padding-bottom: 30px;
+  font-size: 50px;
+  color: #ffffff;
+}
+/* Cities Description Finish */
+
+/* Cities Button Start */
+.wiew-packages-btn-cities {
+  font-family: "Poppins", sans-serif;
+  border: 1px solid #fff;
+  padding: 15px;
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Cities Button Finish */

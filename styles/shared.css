@@ -20,6 +20,7 @@ a {
 
 .homepage-footer-container {
   padding: 200px 400px;
+  border-bottom: 2px solid #E5E5EA;
 }
 
 .company-and-destinitions-links {
@@ -100,6 +101,7 @@ a {
 
 .your-email-adress:focus {
   outline: none;
+  width: 60%;
 }
 
 .subsicribe-btn {
@@ -119,7 +121,7 @@ a {
 }
 
 .subsicribe-btn:hover{
-   right: 345px;
+   right: 350px;
 }
 
 .join-our-paragraph {
@@ -138,4 +140,14 @@ a {
 
 .company-and-destinitions-links .links-items-footer:hover{
   color: #df6951;
+}
+
+.footer-copyright-text{
+color: #181433;
+text-align: center;
+font-family: Manrope;
+justify-content: center;
+align-items: center;
+padding-top: 50px;
+font-size: 20px;
 }

@@ -1,3 +1,8 @@
+/* General Settings START */
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -11,4 +16,114 @@ li {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.homepage-footer-container {
+  padding: 200px 400px;
+}
+
+.company-and-destinitions-links {
+  display: flex;
+  gap: 90px;
+  padding-top: 30px;
+  font-family: Manrope;
+  position: absolute;
+  left: 700px;
+  top: 190px;
+}
+
+.company-text {
+  padding-bottom: 20px;
+  color: #181433;
+}
+
+/* General Settings FİNİSH */
+
+/*Footer Logo and mini text START*/
+
+.footer-logo {
+  position: relative;
+}
+
+.travel-logo-text {
+  position: absolute;
+  left: 400px;
+  top: 205px;
+  z-index: 1;
+  font-family: "Volkhov", serif;
+  cursor: pointer;
+}
+
+.logo-mini-text {
+  color: #757095;
+  font-family: "Manrope", sans-serif;
+}
+
+.social-media-icons-footer {
+  display: flex;
+  gap: 15px;
+  padding-top: 35px;
+}
+
+/*Footer Logo and mini text FİNİSH*/
+
+/* Social Media İcons Start */
+
+.social-media-icons-footer img {
+  cursor: pointer;
+}
+
+/* Social Media İcons Start */
+
+/*Join Our Text Start */
+
+.join-our-newsietter-footer {
+  position: absolute;
+  right: 300px;
+  top: 220px;
+}
+
+.join-our-text {
+  color: #181433;
+  font-family: Manrope;
+  font-size: 21px;
+  padding-bottom: 25px;
+}
+
+.your-email-adress {
+  padding: 18px;
+  border: none;
+  background: #eef;
+  position: absolute;
+}
+
+.your-email-adress:focus {
+  outline: none;
+}
+
+.subsicribe-btn {
+  position: relative;
+  left: 150px;
+  padding: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  background: #df6951;
+  border: none;
+  color: #fff;
+  font-family: Manrope;
+  cursor: pointer;
+}
+
+.join-our-paragraph {
+  padding-top: 25px;
+  color: #181433;
+  font-family: Manrope;
+  opacity: 0.5;
+}
+
+/*Join Our Text Finished */
+
+.company-and-destinitions-links a {
+  font-weight: 500;
 }

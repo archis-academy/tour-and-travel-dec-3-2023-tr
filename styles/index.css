@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+/* General Column Setting Start */
+
+.first-texts{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+   bottom: 30px;
+   right: 60px;
+}
+
+.out-trending-packages-text{
+color: #181E4B;
+text-align: center;
+font-family: Volkhov;
+font-size: 50px;
+}
+
+.trendy-text{
+    color: #DF6951;
+text-align: center;
+font-family: Poppins;
+font-size: 19px;
+}
+
+.trending-your-packages-container{
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+.trending-your-packages-items{
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+}
+
+
+.switzerland-container{
+    position: relative;
+}
+
+.photo-switzerland{
+    cursor: pointer;
+}
+
+.photo-brazil{
+    cursor: pointer;
+}
+
+.photo-eygpt{
+    cursor: pointer;
+}
+
+.img-swiss{
+    position: absolute;
+    left: 10px;
+    top: 260px;
+    border-radius: 10px;
+}
+
+.brazil-container{
+    position: relative;
+}
+
+.img-brazil{
+    position: absolute;
+    left: 10px;
+    top: 260px;
+    border-radius: 10px;
+}
+
+.eygpt-container{
+    position: relative;
+}
+
+.img-egypt{
+    position: absolute;
+    top: 260px;
+    right: 270px;
+    border-radius: 10px;
+}
+
+/* General Column Setting Finish */
+
+/* Other Setting Start */
+.country-info-switzerland{
+    display: flex;
+    margin-top: 40px;
+    color: #7D7D7D;
+    font-family: Poppins;
+    gap: 10px;
+}
+
+.country-name-text-switzerland{
+    font-family: Poppins;
+    font-size: 30px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.country-name-switzerland{
+   position: relative;
+}
+
+.star-point{
+  position: relative;
+  bottom: 32px;
+  left: 280px;
+}
+
+.navigation-country-switzerland{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    position: absolute;
+    bottom: -10px;
+    left: -4px;
+}
+
+.location-country-text-switzerland{
+   color: #7D7D7D;
+   font-family: Poppins;
+}
+
+.onemilion{
+    position: absolute;
+    bottom: -70px;
+    color: #DF6951;
+    font-size: 30px;
+    font-family: Poppins;
+}
+
+.onemiliontwo{
+    color: #7D7D7D;
+    font-family: Poppins;
+    font-size: 20px;
+    position: absolute;
+    bottom: -62px;
+    left: 120px;
+    text-decoration: line-through;
+}
+
+.country-description-text-switzerland{
+    position: absolute;
+    bottom: -210px;
+    font-size: 12px;
+}
+
+.description-text-switzerland{
+    font-family: Poppins;
+    padding-bottom: 10px;
+}
+
+.explore-now-btn-switzerland{
+    background-color: #DF6951;
+    padding: 15px;
+    text-align: center;
+    width: 120px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: Poppins;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.explore-now-btn-switzerland:hover{
+    background-color: #bc3115;
+}
+
+/* Other Setting Finish */

@@ -24,11 +24,13 @@ a {
 
 .company-and-destinitions-links {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 90px;
   padding-top: 30px;
   font-family: Manrope;
   position: absolute;
-  left: 700px;
+  left: 720px;
   top: 190px;
 }
 
@@ -69,7 +71,7 @@ a {
 
 /* Social Media İcons Start */
 
-.social-media-icons-footer img {
+.footer-icons-img{
   cursor: pointer;
 }
 
@@ -80,7 +82,7 @@ a {
 .join-our-newsietter-footer {
   position: absolute;
   right: 300px;
-  top: 220px;
+  top: 222px;
 }
 
 .join-our-text {
@@ -91,10 +93,9 @@ a {
 }
 
 .your-email-adress {
-  padding: 18px;
+  padding: 17px;
   border: none;
   background: #eef;
-  position: absolute;
 }
 
 .your-email-adress:focus {
@@ -102,8 +103,9 @@ a {
 }
 
 .subsicribe-btn {
-  position: relative;
   left: 150px;
+  position:sticky;
+  right: 340px;
   padding: 15px;
   padding-left: 30px;
   padding-right: 30px;
@@ -113,6 +115,11 @@ a {
   color: #fff;
   font-family: Manrope;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subsicribe-btn:hover{
+   right: 345px;
 }
 
 .join-our-paragraph {
@@ -124,6 +131,11 @@ a {
 
 /*Join Our Text Finished */
 
-.company-and-destinitions-links a {
+.company-and-destinitions-links .links-items-footer {
   font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.company-and-destinitions-links .links-items-footer:hover{
+  color: #df6951;
 }

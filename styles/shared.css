@@ -18,9 +18,40 @@ a {
   color: inherit;
 }
 
+.items-comp{
+  display: grid;
+  gap: 20px;
+  padding-left: 100px;
+}
+
+.items-dest{
+  display: grid;
+  gap: 20px;
+}
+
+.company-text {
+  color: #181433;
+}
+
+.company-and-destinitions-links .links-items-footer {
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.company-and-destinitions-links .links-items-footer:hover{
+  color: #df6951;
+}
+
+.travel-footer-logo-description{
+  display: grid;
+  flex-direction: column;
+  grid-template-columns:auto auto auto;
+}
+
+/* General Settings FİNİSH */
+
 .homepage-footer-container {
   padding: 200px 400px;
-  border-bottom: 2px solid #E5E5EA;
 }
 
 .company-and-destinitions-links {
@@ -28,34 +59,12 @@ a {
   justify-content: center;
   align-items: center;
   gap: 90px;
-  padding-top: 30px;
-  font-family: Manrope;
-  position: absolute;
-  left: 720px;
-  top: 190px;
-}
-
-.company-text {
-  padding-bottom: 20px;
-  color: #181433;
+  font-family: Manrope , sans-serif;
 }
 
 /* General Settings FİNİSH */
 
 /*Footer Logo and mini text START*/
-
-.footer-logo {
-  position: relative;
-}
-
-.travel-logo-text {
-  position: absolute;
-  left: 400px;
-  top: 205px;
-  z-index: 1;
-  font-family: "Volkhov", serif;
-  cursor: pointer;
-}
 
 .logo-mini-text {
   color: #757095;
@@ -80,74 +89,69 @@ a {
 
 /*Join Our Text Start */
 
-.join-our-newsietter-footer {
-  position: absolute;
-  right: 300px;
-  top: 222px;
+.join-our-newsietter-footer{
+  padding-left: 90px;
 }
 
 .join-our-text {
   color: #181433;
-  font-family: Manrope;
+  font-family: Manrope , sans-serif;
   font-size: 21px;
   padding-bottom: 25px;
 }
 
 .your-email-adress {
   padding: 17px;
+  width: 69%;
   border: none;
   background: #eef;
 }
 
 .your-email-adress:focus {
   outline: none;
-  width: 60%;
 }
 
 .subsicribe-btn {
-  left: 150px;
-  position:sticky;
-  right: 340px;
   padding: 15px;
-  padding-left: 30px;
-  padding-right: 30px;
   border-radius: 10px;
   background: #df6951;
   border: none;
   color: #fff;
-  font-family: Manrope;
+  font-family: Manrope , sans-serif;
   cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.subsicribe-btn:hover{
-   right: 350px;
 }
 
 .join-our-paragraph {
   padding-top: 25px;
   color: #181433;
-  font-family: Manrope;
+  font-family: Manrope , sans-serif;
   opacity: 0.5;
 }
 
 /*Join Our Text Finished */
 
-.company-and-destinitions-links .links-items-footer {
-  font-weight: 500;
-  transition: all 0.3s ease;
-}
 
-.company-and-destinitions-links .links-items-footer:hover{
-  color: #df6951;
-}
+/* Footer Copyright Text and Line Start */
 
 .footer-copyright-text{
 color: #181433;
 text-align: center;
-font-family: Manrope;
 justify-content: center;
 align-items: center;
-padding-top: 50px;
-font-size: 20px;
+padding-top: 20px;
 }
+
+.copyright-text{
+  font-family: Manrope , sans-serif;
+  font-size: 15px;
+}
+
+
+.copyright-line{
+  color: #E5E5EA;
+  opacity: 0.4;
+  width: 60%;
+  margin-left: 20%;
+}
+
+/* Footer Copyright Text and Line Finish */

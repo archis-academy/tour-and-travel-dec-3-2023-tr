@@ -8,7 +8,7 @@ gap: 21px;
 .Homepage-best-services-1{
    line-height: 27px;
     color: #DF6951;
-    font-family: Poppins;
+    font-family: "Poppins";
     text-align: center;
     font-size: 18px;
 }
@@ -18,31 +18,31 @@ gap: 21px;
     text-align: center;
     padding: 20px;
     color: #181E4B;
-    font-family: volkhov;
+    font-family:"volkhov";
 }
-.Homepage-best-services-img-text{
+.Homepage-best-services-img-human{
     display: flex;
     gap: 160px;
     margin-left: 50px;
 }
-.Homepage-best-services-img-text2{
+.Homepage-best-services-img-plane{
     position: relative;
     left: 70px;
     top: -310px;
 }
-.Homepage-best-services-3{
+.Homepage-best-services-paragraph-texts{
     text-align: center;
     font-size: 16px;
     line-height: 26px;
     padding: 12px;
-    font-family: poppins;
+    font-family: "poppins";
     color: #5E6282;
     font-weight: 500;
-    position: relative;
+    position:relative;
     top: -38px;  
     
 }
-.Homepage-best-services{
+.Homepage-best-services-title-articles{
   text-align: center;
   font-size: 20px;
   font-family: poppins;
@@ -50,13 +50,13 @@ gap: 21px;
   padding: 42px;
   font-weight: 600px; 
 }
-.Homepage-best-img1{
+.Homepage-best-human-img{
     text-align: center;
     position: relative;
     left: 31px; 
     top: 9px;
 }
-.Homepage-best-services-img2{
+.Homepage-best-services-plane-img{
     text-align: center;
     position: relative;
     left: 90px;
@@ -64,19 +64,19 @@ gap: 21px;
   
     
 }
-.Homepage-best-services-img3{
+.Homepage-best-services-hands-img{
     text-align: center;
     position: relative;
     left: 22px;
     top: 8px;
 }
-.Homepage-best-services-img4{
+.Homepage-best-services-medical-img{
     text-align: center;
     position: relative;
     left: 28px;
     top: 5px;
 }
-.Hompage-1{
+.Hompage-box-1{
     width: 50px;
     height: 49px;
     border-radius: 18px 5px 10px 5px;
@@ -87,7 +87,7 @@ gap: 21px;
     left: -31px;
     top: 13px;
 }
-.Homepage-2{
+.Hompage-box-2{
     width: 50px;
     height: 49px;
     border-radius: 18px 5px 10px 5px;
@@ -98,7 +98,7 @@ gap: 21px;
     left: -105px;
     bottom: 25px;
 }
-.Homapage-3{
+.Hompage-box-3{
     width: 50px;
     height: 49px;
     border-radius: 18px 5px 10px 5px;
@@ -109,7 +109,7 @@ gap: 21px;
     left: -38px;
     top: 8px;
 }
-.Hompage-4{
+.Hompage-box-4{
     width: 50px;
     height: 49px;
     border-radius: 18px 5px 10px 5px;
@@ -129,9 +129,10 @@ gap: 21px;
     position: relative;
     z-index: -2;
     top: 280px;
+
     
 }
-.Homepage-best-services-text2{
+.Homepage-best-services-plane-text{
    position: relative;
    bottom: 30px;
  

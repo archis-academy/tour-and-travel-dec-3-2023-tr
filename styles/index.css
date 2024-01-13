@@ -1,6 +1,8 @@
 /* General Settings Start */
+
 @import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 
 * {
   margin: 0;
@@ -9,124 +11,195 @@
   box-sizing: border-box;
 }
 
-.promotion-explore-container {
+/* General Settings Finish */
+
+.honeymoon-project-container {
+  padding: 50px;
+  justify-content: center;
   display: flex;
 }
 
-.black-color-for-opacity {
-  height: 399px;
-  background: rgb(30, 30, 30);
+.honeymoon-wrapper {
+  display: flex;
+  gap: 150px;
+  align-items: center;
 }
 
-.black-color-for-opacity-cities {
-  background: rgb(30, 30, 30);
-  position: absolute;
+/* İmage Start */
+
+.honeymoon-image .honeymoon-img {
+  width: 100%;
 }
-/* General Settings Finish */
 
-/* Nature İmage Start */
-
-.explore-nature-img {
+.honeymoon-image {
   position: relative;
-  opacity: 0.6;
 }
 
-/* Nature İmage Finish */
+/* İmage Finish */
 
-/* Nature Description Text Start */
-
-.explore-description-text {
+/* Honeymoon Plus Effect Start */
+.honeymoon-plus-effects {
   position: absolute;
-  color: #ffffff;
-  line-height: 40px;
-  top: 140px;
-  left: 300px;
-  text-align: center;
+  display: flex;
+  gap: 20px;
+  font-family: "Roboto", sans-serif;
+  right: -22px;
+  color: #e5e5e5;
+  font-size: 14px;
+  bottom: -20px;
 }
 
-.nature-line-effect {
+.honeymoon-plus-effect-two {
+  display: grid;
+  row-gap: 20px;
+  font-family: "Roboto", sans-serif;
+  grid-template-columns: auto auto;
   position: absolute;
-  top: 222px;
-  left: 550px;
+  gap: 20px;
+  right: -22px;
+  font-size: 14px;
+  bottom: 1px;
+  color: #e5e5e5;
 }
 
-.nature-promotion-text {
+.honeymoon-plus-effect-color {
+  color: #df6951;
+}
+
+.honeymoon-plus-effect-color {
+  color: #df6951;
+}
+
+/* Honeymoon Plus Effect Finish */
+
+/* Description Text Start */
+
+.honeymoon-spacials-text {
+  color: #df6951;
   font-family: "Poppins", sans-serif;
-  font-size: 22px;
-  color: #ffefec;
+  font-size: 17px;
+  padding-bottom: 10px;
 }
 
-.explore-nature-text {
+.romantic-tropical-honey {
+  color: #181e4b;
   font-family: "Volkhov", serif;
-  padding-bottom: 30px;
   font-size: 50px;
+  padding-bottom: 10px;
 }
 
-/* Nature Description Finish */
+.honeymoon-desc-etlabore {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 15px;
+}
+/* Description Finish */
 
-/* Nature Button Start */
+/* Button Start */
+
 .wiew-packages-btn {
-  font-family: "Poppins", sans-serif;
-  border: 1px solid #fff;
-  padding: 15px;
-  background-color: transparent;
+  background-color: #df6951;
+  border: none;
   border-radius: 10px;
-  font-size: 16px;
-  color: #ffffff;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
   cursor: pointer;
-}
-
-/* Nature Button Finish */
-
-/* Cities İmage Start */
-
-.explore-cities-img {
-  float: right;
-  opacity: 0.6;
-}
-
-/* Cities İmage Finish */
-
-/* Cities Description Text Start */
-
-.explore-description-text-cities {
-  right: 300px;
-  line-height: 40px;
-  top: 140px;
   text-align: center;
-  position: absolute;
-}
-
-.cities-line-effect {
-  position: absolute;
-  right: 200px;
-  top: 219px;
-}
-
-.cities-promotion-text {
-  font-family: "Poppins", sans-serif;
-  font-size: 22px;
-  color: #ffefec;
-}
-
-.explore-cities-text {
-  font-family: "Volkhov", serif;
-  padding-bottom: 30px;
-  font-size: 50px;
-  color: #ffffff;
-}
-/* Cities Description Finish */
-
-/* Cities Button Start */
-.wiew-packages-btn-cities {
-  font-family: "Poppins", sans-serif;
-  border: 1px solid #fff;
+  font-size: 19px;
   padding: 15px;
-  background-color: transparent;
-  border-radius: 10px;
-  font-size: 16px;
-  color: #ffffff;
-  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-/* Cities Button Finish */
+.wiew-packages-btn:hover{
+    background-color: #b13b23;
+}
+
+
+/* Button Finish */
+
+/* PROMOTION EXPLORE PROJECT --> 
+
+General Settings Start */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.promotion-explore-container{
+  display: flex;
+  padding: 90px 0 90px 0;
+}
+
+.promotion-explore-left-screen{
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.promotion-explore-right-screen{
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+/* General Settings Finish*/
+
+/* Description Text Start */
+.explore-nature-description{
+  position: absolute;
+  top: 35%;
+  left: 30%;
+}
+
+.nature-promotion-text{
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.6px;
+}
+
+.nature-explore-nature-text{
+  color: #fff;
+  font-family: "Volkhov", sans-serif;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.nature-line-effect{
+  position: absolute;
+  right: -80px;
+  top: 78px;
+}
+
+.cities-line-effect{
+  position: absolute;
+  right: -80px;
+  top: 78px;
+}
+/* Description Text Finish */
+
+/* Buttons Start */
+.nature-btn{
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  transition: all 0.4s ease;
+}
+
+.nature-btn:hover{
+  border-radius: 30px;
+}
+/* Buttons Finish */
+

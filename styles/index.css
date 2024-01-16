@@ -115,4 +115,26 @@
 }
 
 
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(<path-to-image>), lightgray 0px -185.265px / 100% 320.841% no-repeat;
+}
+
+.image-container {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+img {
+  width: 1920px; 
+  height: 400px; 
+  flex-shrink: 0;
+
+}
 /* Button Finish */

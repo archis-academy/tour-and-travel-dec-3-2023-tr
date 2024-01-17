@@ -139,18 +139,14 @@
  General Settings Finish */
 
  /* First Text Start */
-.first-texts{
+.trending-your-packages-project-start{
     text-align: center;
-    justify-content: center;
     align-items: center;
     padding-top: 20px;
 }
 
 .out-trending-packages-text{
 color: #181E4B;
-text-align: center;
-justify-content: center;
-align-items: center;
 font-family: Volkhov, sans-serif;
 font-size: 50px;
 }
@@ -170,10 +166,10 @@ font-size: 18px;
 }
 
 .trending-your-packages-items{
-    display: grid;
-    flex-direction: column;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-wrap: wrap;
     gap: 60px;
+    justify-content: center;
     padding-top: 30px;
 }
 
@@ -199,11 +195,6 @@ font-size: 18px;
     border-radius: 10px;
 }
 
-.brazil-container{
-    position: relative;
-    width: 100%;
-}
-
 .brazil-image{
     position: relative;
 }
@@ -216,7 +207,6 @@ font-size: 18px;
     position: absolute;
     left: 10px;
     bottom: -70px;
-    border-radius: 10px;
 }
 
 .img-egypt{
@@ -306,11 +296,6 @@ height: 20px;
     padding-bottom: 10px;
 }
 
-.eygpt-container{
-    position: relative;
-    width: 100%;
-}
-
 /* Other Setting Finish */
 
 /* Explore Now Button Start */
@@ -318,9 +303,6 @@ height: 20px;
 .explore-now-btn{
     background-color: #DF6951;
     padding: 15px;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
     color: #fff;
     font-family: Poppins, sans-serif;
     border: none;

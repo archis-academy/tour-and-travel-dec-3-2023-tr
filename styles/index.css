@@ -131,8 +131,7 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    text-align: start;
-    padding: 50px 0 50px 0;
+    padding: 50px 0;
 }
 
 /* Trending-Tour-Packages --->
@@ -141,7 +140,6 @@
  /* First Text Start */
 .trending-your-packages-project-start{
     text-align: center;
-    align-items: center;
     padding-top: 20px;
 }
 
@@ -153,7 +151,6 @@ font-size: 50px;
 
 .trendy-text{
 color: #DF6951;
-text-align: center;
 font-family: Poppins,sans-serif;
 font-size: 18px;
 }

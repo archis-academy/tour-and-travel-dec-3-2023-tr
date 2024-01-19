@@ -21,7 +21,6 @@ a {
 .items-comp{
   display: grid;
   gap: 20px;
-  padding-left: 100px;
 }
 
 .items-dest{
@@ -36,6 +35,14 @@ a {
 .company-and-destinitions-links .links-items-footer {
   font-weight: 400;
   transition: all 0.3s ease;
+}
+
+.travel-logo-desciption-screen{
+  flex: 1;
+}
+
+.join-our-newsietter-footer{
+  flex: 2;
 }
 
 .company-and-destinitions-links .links-items-footer:hover{
@@ -59,8 +66,8 @@ a {
 
 
 .company-and-destinitions-links {
+  max-width: 1350px;
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: 90px;
   font-family: Manrope , sans-serif;
@@ -91,10 +98,6 @@ a {
 
 /*Join Our Text Start */
 
-.join-our-newsietter-footer{
-  padding-left: 90px;
-}
-
 .join-our-text {
   color: #181433;
   font-family: Manrope , sans-serif;
@@ -120,6 +123,11 @@ a {
   color: #fff;
   font-family: Manrope , sans-serif;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subsicribe-btn:hover{
+  background: #a2422f;
 }
 
 .join-our-paragraph {
@@ -157,8 +165,8 @@ padding-top: 20px;
 /* Footer Copyright Text and Line Finish */
 
 .footer-background-img{
+  z-index: -1;
   position: absolute;
   right: 0;
   top: 0;
-  z-index: -1;
 }

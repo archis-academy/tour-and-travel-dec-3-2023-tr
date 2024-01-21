@@ -1,3 +1,193 @@
+.homepage-hero-section-container{
+  background-image: url(/images/homepage-background.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+#services-down{
+  font-size: 14px;
+  padding-left: 6px;
+}
+
+
+.general-text{
+color: #FFF;
+font-family: "Poppins" , sans-serif;
+font-size: 50px;
+line-height: 80px;
+}
+
+
+.menu-dropdown-content{
+  background-image: url(/images/popup-cloud.png);
+  position: absolute;
+}
+
+.navigation-items{
+  padding: 100px 400px 0 400px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.homepage-description-screen{
+  align-items: start;
+  display:flex;
+  gap: 20px;
+  position: absolute;
+  flex-direction: column;
+  bottom: 20%;
+  left: 21%;
+  color: #fff;
+}
+
+.user-avatar-screen{
+  display: flex;
+}
+
+.user-photos-one{
+  position: relative;
+  cursor: pointer;
+}
+
+.user-photos-two{
+  position: absolute;
+  left: 28px;
+  cursor: pointer;
+}
+.user-photos-three{
+  position: absolute;
+  left: 54px;
+  z-index: 1;
+  cursor: pointer;
+}
+.user-photos-four{
+  position: absolute;
+  left: 78px;
+  z-index: 2;
+  cursor: pointer;
+}
+.user-photos-five{
+  position: absolute;
+  left: 102px;
+  z-index: 3;
+  cursor: pointer;
+}
+.user-photos-six{
+  position: absolute;
+  left: 128px;
+  z-index: 4;
+  cursor: pointer;
+}
+.user-photos-seven{
+  position: absolute;
+  left: 154px;
+  z-index: 5;
+  background-color: #df6951;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.user-photos-plus{
+  position: absolute;
+  left: 170px;
+  bottom: 10px;
+  color: #fff;
+  font-size: 12px;
+  z-index: 6;
+}
+
+.user-description{
+  position: absolute;
+  left: 26%;
+  color: #FFF;
+  font-family: "Poppins" , sans-serif;
+  line-height: 38px;
+}
+
+.blur-screen-links-item{
+  display: flex;
+  gap: 60px;
+  border-radius: 8px;
+  background: rgba(243, 243, 243, 0.60);
+  backdrop-filter: blur(8px);
+  padding: 20px 40px;
+  font-family: "Poppins" , sans-serif;
+}
+
+.blur-links-item{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+}
+
+.blur-btn{
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background-color:#df6951;
+  border-radius: 5px;
+  padding: 16px 56px 16px 56px;
+  background-color: #DF6951;
+}
+
+.homepage-link-items{
+  display: flex;
+  gap: 30px;
+  color: #FFF;
+  font-family: "Volkhov" , sans-serif;
+  font-size: 18px;
+  position: relative;
+}
+
+.homepage-link-items .homepage-item:hover{
+  border-bottom: 2px solid #DF6951;
+  padding-bottom: 5px;
+}
+
+.services-item:hover{
+  color: #181e4b;
+}
+
+
+.services-link-list:hover .services-links-items{
+  visibility: visible;
+}
+
+.services-links-items{
+  position: absolute;
+  top: 30px;
+  visibility: hidden;
+  line-height: 36px;
+  z-index: 1;
+  background-color: rgba(217, 217, 217, 0.58);
+  padding: 18px;
+  border-radius: 20px;
+}
+
+.homepage-touch-btn{
+  padding: 16px 30px 16px 30px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  background-color:#df6951;
+  border-radius: 8px;
+}
+
+.scrool{
+  position: absolute;
+  bottom: -22%;
+}
+
+.page-lines{
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  cursor: pointer;
+}
+
 /* General Settings Start */
 
 @import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap");

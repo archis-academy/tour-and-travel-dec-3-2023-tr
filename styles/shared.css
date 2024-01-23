@@ -55,6 +55,7 @@ a {
   justify-content: center;
   margin-top: 95px;
   position: relative;
+  padding-bottom: 80px;
 }
 
 .icons-settings-footer{
@@ -168,5 +169,5 @@ padding-top: 20px;
   z-index: -1;
   position: absolute;
   right: 0;
-  top: 0;
+  bottom: 0;
 }

@@ -121,67 +121,94 @@
 
 General Settings Start */
 
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  box-sizing: border-box;
-}
-
-.promotion-explore-container{
+.promotions-explore-container {
   display: flex;
-  padding: 90px 0 90px 0;
 }
 
-.promotion-explore-left-screen{
+.explore-left-screen,
+.explore-right-screen {
   position: relative;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+  width: 100% !important;
 }
 
-.promotion-explore-right-screen{
-  position: relative;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+.explore-left-screen::before,
+.explore-right-screen::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
+
+.explore-description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+}
+
+.left-text-line-effect{
+  position: absolute;
+  right: 20%;
+  top: 52%;
+  width: 188px;
+  height: 18px;
+}
+
+.right-text-line-effect{
+  position: absolute;
+  right: 20%;
+  top: 52%;
+  width: 188px;
+  height: 18px;
+}
+
+.explore-big-text{
+  color: #FFF;
+  font-family: "Volkhov" , sans-serif;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.promotion-text{
+ color: #FFEFEC;
+ font-family: "Poppins" , sans-serif;
+ font-size: 18px;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+}
+
+
+.view-packages-btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Poppins" , sans-serif;
+  font-size: 14px;
+}
+
+
+.explore-left-screen {
+  background-image: url(/images/homepage-explore1.png);
+}
+
+.explore-right-screen {
+  background-image: url(/images/homepage-explore2.png);
+}
+
+
 /* General Settings Finish*/
 
 /* Description Text Start */
-.explore-nature-description{
-  position: absolute;
-  top: 35%;
-  left: 30%;
-}
 
-.nature-promotion-text{
-  font-family: "Poppins", sans-serif;
-  color: #ffffff;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2.6px;
-}
-
-.nature-explore-nature-text{
-  color: #fff;
-  font-family: "Volkhov", sans-serif;
-  font-size: 50px;
-  padding-bottom: 20px;
-}
-
-.nature-line-effect{
-  position: absolute;
-  right: -80px;
-  top: 78px;
-}
-
-.cities-line-effect{
-  position: absolute;
-  right: -80px;
-  top: 78px;
-}
 /* Description Text Finish */
 
 /* Buttons Start */

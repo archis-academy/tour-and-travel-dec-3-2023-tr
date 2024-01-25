@@ -9,10 +9,8 @@
 
 /* General Settings Finish */
 /* Best-Services styles*/
-.best-services {
-  flex-direction: column;
-  align-items: center;
-  gap: 22px;
+.best-services{
+  margin: 100px 20px;
 }
 .Homepage-best-services-1 {
   line-height: 28px;
@@ -31,12 +29,12 @@
 }
 .Homepage-best-services-img-text {
   display: flex;
-  gap: 65px;
+  gap: 138px;
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
   max-width: 1365px;
-  justify-content: space-between;
+  justify-content: center;
 }
 .Homepage-best-services-paragraph-texts {
   text-align: center;
@@ -46,7 +44,6 @@
   font-family: "poppins", sans-serif;
   color: #5e6282;
   font-weight: 500;
-  
 }
 .Homepage-best-services-title-articles {
   text-align: center;
@@ -143,7 +140,7 @@
 /* Best-Services styles END*/
 /* Honeymoon Specails*/
 .honeymoon-project-container {
-  padding: 50px;
+  padding: 50px 20px;
   justify-content: center;
   display: flex;
 }

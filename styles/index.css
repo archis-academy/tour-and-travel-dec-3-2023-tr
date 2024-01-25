@@ -10,10 +10,8 @@
 /* General Settings Finish */
 /* Best-Services styles*/
 .best-services {
-  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   gap: 22px;
 }
 .Homepage-best-services-1 {
@@ -33,8 +31,12 @@
 }
 .Homepage-best-services-img-text {
   display: flex;
-  gap: 160px;
+  gap: 65px;
   align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1365px;
+  justify-content: space-between;
 }
 .Homepage-best-services-paragraph-texts {
   text-align: center;
@@ -56,23 +58,20 @@
 }
 .Homepage-best-human-img {
   position: relative;
-  left: 80px;
-  top: -9px;
+ text-align: center;
 }
 .Homepage-best-services-plane-img {
   position: relative;
-  margin-left: 62px;
+  text-align: center;
   z-index: 1;
 }
 .Homepage-best-services-hands-img {
   position: relative;
-  left: 50px;
-  top: -10px;
+ text-align: center;
 }
 .Homepage-best-services-medical-img {
   position: relative;
-  left: 50px;
-  top: -10px;
+ text-align: center;
 }
 .Hompage-box-1 {
   width: 50px;
@@ -82,7 +81,7 @@
   display: inline-block;
   position: absolute;
   z-index: -1;
-  left: 30px;
+  right: 54px;
   top: 36px;
 }
 .Hompage-box-2 {
@@ -93,7 +92,7 @@
   display: inline-block;
   position: absolute;
   z-index: -1;
-  left: -10px;
+ left: 47px;
   bottom: 25px;
 }
 .Hompage-box-3 {
@@ -104,7 +103,7 @@
   display: inline-block;
   position: absolute;
   z-index: -1;
-  left: 30px;
+  right: 56px;
   top: 26px;
 }
 .Hompage-box-4 {
@@ -115,7 +114,7 @@
   display: inline-block;
   position: absolute;
   z-index: -1;
-  left: 30px;
+  right: 50px;
   top: 27px;
 }
 .Homepage-best-services-plane {

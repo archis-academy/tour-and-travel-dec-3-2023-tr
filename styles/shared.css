@@ -146,6 +146,6 @@ padding-top: 20px;
 .footer-background-img{
   z-index: -1;
   position: absolute;
-  right: 0;
+  right: -80px;
   bottom: 0;
 }

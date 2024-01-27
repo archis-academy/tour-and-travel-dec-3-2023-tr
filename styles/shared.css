@@ -1,5 +1,3 @@
-/* General Settings START */
-
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap");
 
@@ -21,11 +19,13 @@ a {
 .items-comp{
   display: grid;
   gap: 20px;
+  flex: 1;
 }
 
 .items-dest{
   display: grid;
   gap: 20px;
+  flex: 1;
 }
 
 .company-text {
@@ -41,21 +41,12 @@ a {
   flex: 1;
 }
 
-.join-our-newsietter-footer{
-  flex: 2;
-}
-
 .company-and-destinitions-links .links-items-footer:hover{
   color: #df6951;
 }
-/* General Settings FİNİSH */
 
 .homepage-footer-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 95px;
-  position: relative;
-  padding-bottom: 80px;
+  margin-top: 94px;
 }
 
 .icons-settings-footer{
@@ -64,28 +55,19 @@ a {
   gap: 10px;
 }
 
-
-
 .company-and-destinitions-links {
-  max-width: 1350px;
   display: flex;
+  width: 100%;
   align-items: center;
-  gap: 90px;
-  font-family: Manrope , sans-serif;
+  font-family: "Manrope" , sans-serif;
 }
 
-/* General Settings FİNİSH */
-
-/*Footer Logo and mini text START*/
 
 .logo-mini-text {
   color: #757095;
   font-family: "Manrope", sans-serif;
 }
 
-/*Footer Logo and mini text FİNİSH*/
-
-/* Social Media İcons Start */
 
 .footer-icons-img{
   cursor: pointer;
@@ -95,21 +77,25 @@ a {
   padding-top: 20px;
 }
 
-/* Social Media İcons Finish */
-
-/*Join Our Text Start */
 
 .join-our-text {
   color: #181433;
-  font-family: Manrope , sans-serif;
-  font-size: 21px;
-  padding-bottom: 25px;
+  font-family: "Manrope" , sans-serif;
+  font-size: 22px;
+  padding-bottom: 24px;
 }
 
 .your-email-adress {
-  padding: 17px;
+  padding: 16px;
   border: none;
   background: #eef;
+}
+
+.travel-footer-logo-description{
+  position: relative;
+  max-width: 1350px;
+  margin: auto;
+  padding-bottom: 80px;
 }
 
 .your-email-adress:focus {
@@ -117,12 +103,12 @@ a {
 }
 
 .subsicribe-btn {
-  padding: 15px;
+  padding: 14px;
   border-radius: 10px;
   background: #df6951;
   border: none;
   color: #fff;
-  font-family: Manrope , sans-serif;
+  font-family: "Manrope" , sans-serif;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -134,26 +120,19 @@ a {
 .join-our-paragraph {
   padding-top: 25px;
   color: #181433;
-  font-family: Manrope , sans-serif;
+  font-family: "Manrope" , sans-serif;
   opacity: 0.5;
 }
-
-/*Join Our Text Finished */
-
-
-/* Footer Copyright Text and Line Start */
 
 .footer-copyright-text{
 color: #181433;
 text-align: center;
-justify-content: center;
-align-items: center;
 padding-top: 20px;
 }
 
 .copyright-text{
-  font-family: Manrope , sans-serif;
-  font-size: 15px;
+  font-family: "Manrope" , sans-serif;
+  font-size: 14px;
 }
 
 
@@ -163,7 +142,6 @@ padding-top: 20px;
   opacity: 0.4;
 }
 
-/* Footer Copyright Text and Line Finish */
 
 .footer-background-img{
   z-index: -1;

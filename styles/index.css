@@ -7,7 +7,6 @@
   box-sizing: border-box;
 }
 
-/* General Settings Finish */
 /* Best-Services styles*/
 .best-services{
   margin: 100px 20px;
@@ -138,7 +137,9 @@
   z-index: -2;
 }
 /* Best-Services styles END*/
-/* Honeymoon Specails*/
+
+/* Honeymoon Specials Packages - Start */
+
 .honeymoon-project-container {
   padding: 50px 20px;
   justify-content: center;
@@ -227,8 +228,119 @@
 .wiew-packages-btn:hover {
   background-color: #b13b23;
 }
+/* Honeymoon Specials Packages - Finish */
+
+/* Promotion Explore Packages - Start */
+
+.promotions-explore-container {
+  display: flex;
+}
+
+.explore-left-screen,
+.explore-right-screen {
+  position: relative;
+  width: 100%;
+}
+
+.explore-left-screen::before,
+.explore-right-screen::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.explore-description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+}
+
+.left-text-line-effect{
+  position: absolute;
+  right: -90px;
+  bottom: -5px;
+}
+
+.right-text-line-effect{
+  position: absolute;
+  right: -90px;
+  bottom: -5px;
+}
+
+.explore-big-text{
+  color: #FFF;
+  font-family: "Volkhov" , sans-serif;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.promotion-text{
+ color: #FFEFEC;
+ font-family: "Poppins" , sans-serif;
+ font-size: 18px;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+}
 
 
+.view-packages-btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Poppins" , sans-serif;
+  font-size: 14px;
+}
+
+
+.explore-left-screen {
+  background-image: url(/images/homepage-explore1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.explore-right-screen {
+  background-image: url(/images/homepage-explore2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-description-cities{
+  position: relative;
+}
+
+.text-description-nature{
+  position: relative;
+}
+
+.nature-btn{
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  transition: all 0.4s ease;
+}
+
+.nature-btn:hover{
+  border-radius: 30px;
+}
 
 *{
   margin: 0;
@@ -236,6 +348,9 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+/* Promotion Explore Packages - Finish */
+
+/* Trending Your Packages - Start */
 
 .trending-your-packages-container{
   align-items: center;
@@ -244,10 +359,6 @@
   padding: 50px 20px;
 }
 
-/* Trending-Tour-Packages --->
-General Settings Finish */
-
-/* First Text Start */
 .trending-your-packages-project-start{
   text-align: center;
   padding-top: 20px;
@@ -265,9 +376,6 @@ font-family: Poppins,sans-serif;
 font-size: 18px;
 }
 
-/* First Text Finish */
-
-/* İmages Settings Start */
 .switzerland-image{
   position: relative;
 }
@@ -323,10 +431,6 @@ font-size: 18px;
   border-radius: 10px;
 }
 
-/* İmages Settings Finish */
-
-/* Other Setting Start */
-
 .country-info-all{
   display: flex;
   padding-top: 45px;
@@ -361,7 +465,6 @@ height: 20px;
   display: flex;
   gap: 5px;
 }
-
 
 .navigation-country-all{
   display: flex;
@@ -403,10 +506,6 @@ text-align: start;
   padding-bottom: 10px;
 }
 
-/* Other Setting Finish */
-
-/* Explore Now Button Start */
-
 .explore-now-btn{
   background-color: #DF6951;
   padding: 15px;
@@ -422,4 +521,4 @@ text-align: start;
   background-color: #bc3115;
 }
 
-/* Explore Now Button Finish*/
+/* Trending Your Packages - Finish */

@@ -230,6 +230,127 @@
 
 /* Honeymoon Specails*/
 
+/* Promotion Explore Packages - Start */
+
+.promotions-explore-container {
+  display: flex;
+}
+
+.explore-left-screen,
+.explore-right-screen {
+  position: relative;
+  width: 100%;
+}
+
+.explore-left-screen::before,
+.explore-right-screen::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.explore-description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+}
+
+.left-text-line-effect{
+  position: absolute;
+  right: -90px;
+  bottom: -5px;
+}
+
+.right-text-line-effect{
+  position: absolute;
+  right: -90px;
+  bottom: -5px;
+}
+
+.explore-big-text{
+  color: #FFF;
+  font-family: "Volkhov" , sans-serif;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.promotion-text{
+ color: #FFEFEC;
+ font-family: "Poppins" , sans-serif;
+ font-size: 18px;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+}
+
+
+.view-packages-btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Poppins" , sans-serif;
+  font-size: 14px;
+}
+
+
+.explore-left-screen {
+  background-image: url(/images/homepage-explore1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.explore-right-screen {
+  background-image: url(/images/homepage-explore2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-description-cities{
+  position: relative;
+}
+
+.text-description-nature{
+  position: relative;
+}
+
+.nature-btn{
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  transition: all 0.4s ease;
+}
+
+.nature-btn:hover{
+  border-radius: 30px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+/* Promotion Explore Packages - Finish */
+
+
 .testimonials-page-container {
   background-image: url(/images/testimonial-background.jpg);
   padding : 150px 0 66px 0;
@@ -243,28 +364,33 @@
 }
 
 .user-review-desc {
-  width: 538px;
+  max-width: 538px;
   height: 280px;
   margin: auto;
   background-color: #fff;
   border-radius: 10px;
   position: relative;
+  padding-top: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.user-description-container{
+  position: relative;
+}
+
 .description-icon {
   position: absolute;
-  left: 42px;
-  top: 52px;
+  top: -18px;
+  left: -24px;
 }
 
 .user-desc-text {
   text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
-  width: 402px;
+  max-width: 402px;
   padding-top: 20px;
   line-height: 24px;
   letter-spacing: 0.6px;
@@ -272,13 +398,11 @@
 
 .designer-user-name {
   text-align: center;
+  padding-top: 20px;
   font-family: "Poppins", sans-serif;
   font-size: 12px;
-  font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0.6px;
-  position: absolute;
-  bottom: 30px;
+  letter-spacing: 0.8px;
 }
 
 .promotion-text-desc {

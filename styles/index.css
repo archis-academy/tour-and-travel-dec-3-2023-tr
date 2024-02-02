@@ -228,4 +228,215 @@
   background-color: #b13b23;
 }
 
-/* Honeymoon Specails*/
+
+/* Button Finish */
+
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.honeymoon-project-container {
+  padding: 50px;
+  justify-content: center;
+  display: flex;
+}
+
+.honeymoon-wrapper {
+  display: flex;
+  gap: 150px;
+  align-items: center;
+}
+
+.honeymoon-image .honeymoon-img {
+  width: 100%;
+}
+
+.honeymoon-image {
+  position: relative;
+}
+
+.honeymoon-plus-effects {
+  position: absolute;
+  display: flex;
+  gap: 20px;
+  font-family: "Roboto", sans-serif;
+  right: -22px;
+  color: #e5e5e5;
+  font-size: 14px;
+  bottom: -20px;
+}
+
+.honeymoon-plus-effect-two {
+  display: grid;
+  row-gap: 20px;
+  font-family: "Roboto", sans-serif;
+  grid-template-columns: auto auto;
+  position: absolute;
+  gap: 20px;
+  right: -22px;
+  font-size: 14px;
+  bottom: 1px;
+  color: #e5e5e5;
+}
+
+.honeymoon-plus-effect-color {
+  color: #df6951;
+}
+
+.honeymoon-plus-effect-color {
+  color: #df6951;
+}
+
+.honeymoon-spacials-text {
+  color: #df6951;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
+.romantic-tropical-honey {
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+
+.honeymoon-desc-etlabore {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 15px;
+}
+
+.wiew-packages-btn {
+  background-color: #df6951;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  text-align: center;
+  font-size: 19px;
+  padding: 15px;
+  transition: all 0.3s ease;
+}
+
+.wiew-packages-btn:hover{
+    background-color: #b13b23;
+}
+
+.promotions-explore-container {
+  display: flex;
+}
+
+.explore-left-screen,
+.explore-right-screen {
+  position: relative;
+  width: 100%;
+}
+
+.explore-left-screen::before,
+.explore-right-screen::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.explore-description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+}
+
+.left-text-line-effect{
+  position: absolute;
+  right: -90px;
+  bottom: -5px;
+}
+
+.right-text-line-effect{
+  position: absolute;
+  right: -90px;
+  bottom: -5px;
+}
+
+.explore-big-text{
+  color: #FFF;
+  font-family: "Volkhov" , sans-serif;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.promotion-text{
+ color: #FFEFEC;
+ font-family: "Poppins" , sans-serif;
+ font-size: 18px;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+}
+
+
+.view-packages-btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Poppins" , sans-serif;
+  font-size: 14px;
+}
+
+
+.explore-left-screen {
+  background-image: url(/images/homepage-explore1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.explore-right-screen {
+  background-image: url(/images/homepage-explore2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-description-cities{
+  position: relative;
+}
+
+.text-description-nature{
+  position: relative;
+}
+
+.nature-btn{
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  transition: all 0.4s ease;
+}
+
+.nature-btn:hover{
+  border-radius: 30px;
+}

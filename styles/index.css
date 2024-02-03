@@ -522,3 +522,100 @@ text-align: start;
 }
 
 /* Trending Your Packages - Finish */
+
+.about-explore-packages-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.first-text{
+  padding: 50px 0 50px 0;
+}
+
+.container-items {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 40px;
+}
+
+.container-items > #column-item {
+  padding: 4px;
+}
+
+.free-image{
+  width: 364px;
+  height: 364px;
+  object-fit: cover;
+}
+
+.item1 {
+  grid-row: 1 / 1;
+  position: relative;
+ }
+
+ .image-text{
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+  font-size: 22px;
+  color: #ffffff;
+  font-family: "Poppins" , sans-serif;
+ }
+
+ .money-text{
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  color: #ffffff;
+  font-family: "Poppins" , sans-serif;
+ }
+ 
+ .item2{
+ grid-row: 1 / 1;
+ position: relative;
+ }
+.item3 {
+  grid-row: 1 / 3;
+  position: relative;
+}
+.item4 {
+  position: relative;
+}
+.item5 {
+  position: relative;
+}
+.item6 {
+  position: relative;
+}
+.item7 {
+  position: relative;
+}
+.item8 {
+  position: relative;
+}
+.item9 {
+  position: relative;
+}
+
+.item10{
+  position: relative;
+}
+
+.item11{
+  position: relative;
+}
+
+.international-text{
+  font-size: 50px;
+  font-family: "Volkhov" , sans-serif;
+}
+
+.explore-more-text{
+  font-size: 18px;
+  color: #df6951;
+  letter-spacing: 0.8;
+  font-family: "Poppins" , sans-serif;
+}

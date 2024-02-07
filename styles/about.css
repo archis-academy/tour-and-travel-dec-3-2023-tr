@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.about-us-page-container{
+    background-image: url(/images/about/about-header-img.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin : auto;
+  }
+  
+  #about-link-active{
+    border-bottom: 2px solid #df6951;
+    padding-bottom: 5px;
+  }
+  
+  .active{
+    border-bottom: 2px solid #DF6951;
+  }
+  
+  .about-navigation-menu{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 66px;
+    align-items: center;
+  }
+  
+  .about-navigation-items{
+    display: flex;
+    gap: 30px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+  }
+  
+  .about-navigation-items .about-page-nav-item:hover{
+    border-bottom: 2px solid #df6951;
+    padding-bottom: 5px;
+  }
+  
+  .services-item:hover {
+    color: rgb(223, 105, 80);
+  }
+  
+  #services-down{
+    padding-left: 8px;
+    font-size: 14px;
+  }
+  
+  .touch-Btn{
+    padding: 16px 30px 16px 30px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    background-color: #df6951;
+    border-radius: 8px;
+  }
+  
+  .about-us-text-screen{
+    justify-content: center;
+    display: flex;
+    position: relative;
+    margin-top: 150px;
+  }
+  
+  .read-text{
+    color: #fff;
+    font-family: "Poppins" , sans-serif;
+    position: absolute;
+    font-size: 18px;
+    top: 20px;
+  }
+  
+  .about-us-text{
+    color: #fff;
+    font-family: 'Yesteryear', cursive;
+    font-size: 150px;
+  }
+  
+  .services-links-items{
+    position: absolute;
+    top: 30px;
+    visibility: hidden;
+    line-height: 36px;
+    z-index: 1;
+    background-color: rgba(217, 217, 217, 0.58);
+    padding: 18px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-size: 14px;
+  }
+  
+  .services-link-list:hover .services-links-items {
+    visibility: visible;
+  }
+  

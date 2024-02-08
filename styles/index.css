@@ -6,6 +6,24 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+/* General Settings Finish */
+/*Partners-Section styles*/
+.hompage-partner-section{
+  width: 100%;
+  background-color: #F5F5F5;
+}
+.partner-section-logo{
+display: flex;
+max-width: 1920px;
+height: 200px;
+align-items: center;
+margin: auto;
+justify-content: space-around;
+}
+.logo-img{
+  height: 50px;
+}
+/* Partners-Section style END /*
 
 /* Best-Services styles*/
 .best-services{
@@ -522,3 +540,4 @@ text-align: start;
 }
 
 /* Trending Your Packages - Finish */
+

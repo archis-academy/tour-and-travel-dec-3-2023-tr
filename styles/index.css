@@ -9,28 +9,22 @@
 
 /* General Settings Finish */
 /*Partners-Section styles*/
-.HOMPAGE-PARTNER-SECTİON{
+.hompage-partner-section{
   width: 100%;
-  height: 200px;
+  background-color: #F5F5F5;
 }
-.PARTNER-SECTİON-LOGO{
+.partner-section-logo{
 display: flex;
 max-width: 1920px;
 height: 200px;
-padding: 80px 0px;
-align-items: flex-start;
-gap: 180px;
+align-items: center;
 margin: auto;
-background: #F7F7F7;
-justify-content: center;
+justify-content: space-around;
 }
 .logo-img{
-  width: 154px;
   height: 50px;
-  justify-content: space-between;
-  
- 
 }
+/* Partners-Section style END /*
 /* Best-Services styles*/
 .best-services{
   margin: 100px 20px;

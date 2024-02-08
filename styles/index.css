@@ -6,7 +6,6 @@
   text-decoration: none;
   box-sizing: border-box;
 }
-
 /* General Settings Finish */
 /*Partners-Section styles*/
 .hompage-partner-section{
@@ -25,13 +24,14 @@ justify-content: space-around;
   height: 50px;
 }
 /* Partners-Section style END /*
+
 /* Best-Services styles*/
 .best-services{
   margin: 100px 20px;
 }
 .Homepage-best-services-1 {
   line-height: 28px;
-  color:#DF6951 ;
+  color: #df6951;
   font-family: "poppins", sans-serif;
   text-align: center;
   font-size: 18px;
@@ -155,7 +155,9 @@ justify-content: space-around;
   z-index: -2;
 }
 /* Best-Services styles END*/
-/* Honeymoon Specails*/
+
+/* Honeymoon Specials Packages - Start */
+
 .honeymoon-project-container {
   padding: 50px 20px;
   justify-content: center;
@@ -211,7 +213,7 @@ justify-content: space-around;
 .honeymoon-spacials-text {
   color: #df6951;
   font-family: "Poppins", sans-serif;
-  font-size: 17px;
+  font-size: 18px;
   padding-bottom: 10px;
 }
 
@@ -223,7 +225,7 @@ justify-content: space-around;
 }
 
 .honeymoon-desc-etlabore {
-  font-size: 17px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
   padding-bottom: 15px;
 }
@@ -236,7 +238,7 @@ justify-content: space-around;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
   text-align: center;
-  font-size: 19px;
+  font-size: 18px;
   padding: 15px;
   transition: all 0.3s ease;
 }
@@ -244,5 +246,298 @@ justify-content: space-around;
 .wiew-packages-btn:hover {
   background-color: #b13b23;
 }
+/* Honeymoon Specials Packages - Finish */
 
-/* Honeymoon Specails*/
+/* Promotion Explore Packages - Start */
+
+.promotions-explore-container {
+  display: flex;
+}
+
+.explore-left-screen,
+.explore-right-screen {
+  position: relative;
+  width: 100%;
+}
+
+.explore-left-screen::before,
+.explore-right-screen::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.explore-description {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+}
+
+.left-text-line-effect{
+  position: absolute;
+  right: -90px;
+  bottom: -5px;
+}
+
+.right-text-line-effect{
+  position: absolute;
+  right: -90px;
+  bottom: -5px;
+}
+
+.explore-big-text{
+  color: #FFF;
+  font-family: "Volkhov" , sans-serif;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.promotion-text{
+ color: #FFEFEC;
+ font-family: "Poppins" , sans-serif;
+ font-size: 18px;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+}
+
+
+.view-packages-btn {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 15px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Poppins" , sans-serif;
+  font-size: 14px;
+}
+
+
+.explore-left-screen {
+  background-image: url(/images/homepage-explore1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.explore-right-screen {
+  background-image: url(/images/homepage-explore2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-description-cities{
+  position: relative;
+}
+
+.text-description-nature{
+  position: relative;
+}
+
+.nature-btn{
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px;
+  transition: all 0.4s ease;
+}
+
+.nature-btn:hover{
+  border-radius: 30px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+/* Promotion Explore Packages - Finish */
+
+/* Trending Your Packages - Start */
+
+.trending-your-packages-container{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+}
+
+.trending-your-packages-project-start{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.out-trending-packages-text{
+color: #181E4B;
+font-family: Volkhov, sans-serif;
+font-size: 50px;
+}
+
+.trendy-text{
+color: #DF6951;
+font-family: Poppins,sans-serif;
+font-size: 18px;
+}
+
+.switzerland-image{
+  position: relative;
+}
+
+.trending-your-packages-items{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.photo-switzerland{
+  cursor: pointer;
+  width: 100%;
+}
+
+.photo-brazil{
+  cursor: pointer;
+  width: 100%;
+}
+
+.photo-eygpt{
+  cursor: pointer;
+  width: 100%;
+}
+
+.img-swiss{
+  position: absolute;
+  left: 10px;
+  bottom: -70px;
+  border-radius: 10px;
+}
+
+.brazil-image{
+  position: relative;
+}
+
+.eygpt-image{
+  position: relative;
+}
+
+.img-brazil{
+  position: absolute;
+  left: 10px;
+  bottom: -70px;
+}
+
+.img-egypt{
+  position: absolute;
+  left: 10px;
+  bottom: -70px;
+  border-radius: 10px;
+}
+
+.country-info-all{
+  display: flex;
+  padding-top: 45px;
+  color: #7D7D7D;
+  font-family: Poppins, sans-serif;
+  gap: 10px;
+  align-items: center;
+}
+
+.profile-icon{
+width: 20px;
+height: 20px;
+}
+
+.country-name-text-all{
+  font-family: Poppins,sans-serif;
+  font-size: 30px;
+  display: flex;
+  padding-top: 5px;
+  cursor: pointer;
+  text-align: start;
+}
+
+.country-name-all{
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  justify-content: space-between;
+}
+
+.star-icons{
+  display: flex;
+  gap: 5px;
+}
+
+.navigation-country-all{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.location-country-text-all{
+ color: #7D7D7D;
+ font-family: Poppins, sans-serif;
+}
+
+.price-text-all{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 15px;
+}
+
+.onemilion{
+  color: #DF6951;
+  font-size: 30px;
+  font-family: Poppins, sans-serif;
+}
+
+.onemiliontwo{
+  color: #7D7D7D;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  text-decoration: line-through;
+}
+
+.country-description-text-all{
+text-align: start;
+}
+
+.description-text-all{
+  font-family: Poppins,sans-serif;
+  padding-bottom: 10px;
+}
+
+.explore-now-btn{
+  background-color: #DF6951;
+  padding: 15px;
+  color: #fff;
+  font-family: Poppins, sans-serif;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.explore-now-btn:hover{
+  background-color: #bc3115;
+}
+
+/* Trending Your Packages - Finish */
+

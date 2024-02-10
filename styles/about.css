@@ -1,0 +1,19 @@
+
+.video{
+    width: 100%;
+}
+.media-text{
+    font-family: "Yesteryear", sans;
+    font-size: 50px;
+    line-height: 225px;
+    display: flex;
+    justify-content: center;
+    margin: -290px 0px;
+    color: #FFFFFF;
+    letter-spacing: 8px;
+    
+}
+.media-video{
+    
+}
+   

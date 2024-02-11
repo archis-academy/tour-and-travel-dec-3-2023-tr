@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.about-trend-section-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    position: relative;
+    align-items: center;
+    gap: 150px;
+  }
+  
+  #tourNameText {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    color: #181e4b;
+  }
+  
+  .about-trend-page-description {
+    text-align: start;
+  }
+  
+  .shell-image {
+    position: absolute;
+    right: -20px;
+    top: 30px;
+  }
+  
+  .number-screens {
+    padding-top: 80px;
+    display: flex;
+    gap: 50px;
+  }
+  
+  .vacation-screen{
+    text-align: center;
+  }
+  .honeymoon-screen{
+    text-align: center;
+  }
+  .musical-screen{
+    text-align: center;
+  }
+  
+  .our-popular-text {
+    font-size: 50px;
+    color: #181E4B;
+    font-family: "Volkhov", sans-serif;
+  }
+  
+  .trend-text {
+    font-size: 18px;
+    color: #df6951;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .trend-paragraph {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+  }
+  
+  @media only screen and (max-width: 1600px){
+    .shell-image{
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 1334px) {
+    .about-trend-section-container{
+      gap: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 1180px) {
+    .about-trend-section-container{
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+    }
+    .trend-img{
+      width: 310px;
+    }
+    .about-trend-page-description {
+      text-align: center;
+      padding-top: 20px;
+    }
+  }
+  @media only screen and (max-width: 624px){
+    .number-screens{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .testimonials-page-container {
+    background-image: url(/images/testimonial-background.jpg);
+    padding : 150px 0 66px 0;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .title-and-user-desc {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .user-review-desc {
+    max-width: 538px;
+    height: 280px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user-description-container{
+    position: relative;
+  }
+  
+  .description-icon {
+    position: absolute;
+    top: -18px;
+    left: -24px;
+  }
+  
+  .user-desc-text {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    max-width: 402px;
+    padding-top: 20px;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+  }
+  
+  .designer-user-name {
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+  }
+  
+  .promotion-text-desc {
+    color: #df6951;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    max-width: 700px;
+    text-align: center;
+  }
+  
+  .user-photo {
+    position: absolute;
+    top: -70px;
+  }
+  
+  .about-us-text {
+    color: #181e4b;
+    text-align: center;
+    font-family: "Volkhov", sans-serif;
+    font-size: 50px;
+    padding-bottom: 94px;
+  }
+  
+  .left-page-change{
+    position: absolute;
+    right: -66px;
+    cursor: pointer;
+  }
+  
+  .change-page-lines{
+    padding-top: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .right-page-change{
+    position: absolute;
+    left: -66px;
+    cursor: pointer;
+  }
+  
+  .container-picture{
+    position: absolute;
+    bottom: 0;
+  }
+  

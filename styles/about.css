@@ -8,12 +8,13 @@
     line-height: 225px;
     display: flex;
     justify-content: center;
-    margin: -290px 0px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: #FFFFFF;
     letter-spacing: 8px;
-    
+    position: absolute;   
 }
-.media-video{
-    
+.wonderlust-video{
+    position: relative;
 }
-   

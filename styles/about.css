@@ -9,7 +9,55 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+.promotion{
+  font-family: "Poppins", sans;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 10%;
+  color: #DF6951;
+}
+.promotion-title{
+  font-family: "Volkhov", sans;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 71px;
+}
+.promotion-paragraph{
+font-family: "Poppins", sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: #000000;
+}
+.button{
+  width: 176px;
+  height: 56px;
+  border-radius: 10px;
+  gap: 10px;
+  padding: 0px,36px,10px,0px;
+  background-color: #DF6951;
+  margin-top: 25px;
+}
+h6{
+font-family: "Poppins", sans;
+font-weight: 600;
+font-size: 16.5px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+}
 
+.about-promotion-text{
+  width: 640px;
+  height: 380px;
+  margin: auto;
+  display: flex;
+flex-wrap: wrap;
+}
+.about-promotion{
+ 
+}
 .video{
   width: 100%;
 }

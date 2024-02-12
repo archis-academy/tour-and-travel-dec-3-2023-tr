@@ -3,13 +3,104 @@
 @import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
 
 
-* {
-  margin: 0;
-  padding: 0;
-  text-decoration: none;
-  box-sizing: border-box;
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
+.about-trend-section-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    position: relative;
+    align-items: center;
+    gap: 150px;
+  }
+  
+  #tourNameText {
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    color: #181e4b;
+  }
+  
+  .about-trend-page-description {
+    text-align: start;
+  }
+  
+  .shell-image {
+    position: absolute;
+    right: -20px;
+    top: 30px;
+  }
+  
+  .number-screens {
+    padding-top: 80px;
+    display: flex;
+    gap: 50px;
+  }
+  
+  .vacation-screen{
+    text-align: center;
+  }
+  .honeymoon-screen{
+    text-align: center;
+  }
+  .musical-screen{
+    text-align: center;
+  }
+  
+  .our-popular-text {
+    font-size: 50px;
+    color: #181E4B;
+    font-family: "Volkhov", sans-serif;
+  }
+  
+  .trend-text {
+    font-size: 18px;
+    color: #df6951;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .trend-paragraph {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+  }
+  
+  @media only screen and (max-width: 1600px){
+    .shell-image{
+      display: none;
+    }
+  }
+  
+  @media only screen and (max-width: 1334px) {
+    .about-trend-section-container{
+      gap: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 1180px) {
+    .about-trend-section-container{
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+    }
+    .trend-img{
+      width: 310px;
+    }
+    .about-trend-page-description {
+      text-align: center;
+      padding-top: 20px;
+    }
+  }
+  @media only screen and (max-width: 624px){
+    .number-screens{
+      display: flex;
+      flex-direction: column;
+    }
+  }
 
 .about-explore-packages-container {
     display: flex;
@@ -24,75 +115,40 @@
   
   .container-items {
     display: grid;
-    grid-template-columns:repeat(4, 414px);
-    grid-template-rows: repeat(2,414px);
+    grid-template-columns:repeat(auto-fit, minmax(250px , 363px));
+    max-width: 1600px;
+    margin: auto;
+    gap: 36px;
+    justify-content: center;
+
+  }
+
+
+  .city-and-money-text{
+    position: absolute;
+    bottom: 30px;
+    padding: 0 30px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Poppins" , sans-serif;
+  }
+
+  .item3{
+    grid-row: auto / span 2;
   }
   
   .container-items > #column-item {
     padding: 4px;
+    position: relative;
   }
-  
+
   .free-image{
     width: 364px;
     height: 364px;
     object-fit: cover;
-  }
-  
-  .item1 {
-    grid-row: 1 / 1;
-    position: relative;
-   }
-  
-   .image-text{
-    position: absolute;
-    bottom: 60px;
-    left: 50px;
-    font-size: 22px;
-    color: #ffffff;
-    font-family: "Poppins" , sans-serif;
-   }
-  
-   .money-text{
-    position: absolute;
-    bottom: 60px;
-    right: 50px;
-    font-size: 22px;
-    color: #ffffff;
-    font-family: "Poppins" , sans-serif;
-   }
-   .item2{
-   grid-row: 1 / 1;
-   position: relative;
-   }
-  .item3 {
-    grid-row: 1 / 3;
-    position: relative;
-  }
-  .item4 {
-    position: relative;
-  }
-  .item5 {
-    position: relative;
-  }
-  .item6 {
-    position: relative;
-  }
-  .item7 {
-    position: relative;
-  }
-  .item8 {
-    position: relative;
-  }
-  .item9 {
-    position: relative;
-  }
-  
-  .item10{
-    position: relative;
-  }
-  
-  .item11{
-    position: relative;
   }
   
   .international-text{

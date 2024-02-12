@@ -95,6 +95,7 @@
       padding-top: 20px;
     }
   }
+
   @media only screen and (max-width: 624px){
     .number-screens{
       display: flex;
@@ -115,7 +116,7 @@
   
   .container-items {
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(250px , 363px));
+    grid-template-columns: repeat(auto-fit, minmax(0 , 363px));
     max-width: 1600px;
     margin: auto;
     gap: 36px;

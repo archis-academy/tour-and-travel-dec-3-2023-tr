@@ -14,7 +14,7 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
-  letter-spacing: 10%;
+  letter-spacing: 2px;
   color: #DF6951;
 }
 .promotion-title{
@@ -47,16 +47,12 @@ line-height: 25px;
 text-align: center;
 color: #FFFFFF;
 }
-
-.about-promotion-text{
-  width: 640px;
-  height: 380px;
-  margin: auto;
-  display: flex;
-flex-wrap: wrap;
-}
 .about-promotion{
- 
+  display: flex;
+}
+.about-img,.about-promotion-text{
+margin-left: auto;
+
 }
 .video{
   width: 100%;

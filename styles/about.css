@@ -9,6 +9,7 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
 .promotion{
   font-family: "Poppins", sans;
   font-weight: 700;
@@ -31,11 +32,10 @@ line-height: 26px;
 color: #000000;
 }
 .button{
-  width: 176px;
-  height: 56px;
+ 
   border-radius: 10px;
-  gap: 10px;
-  padding: 0px,36px,10px,0px;
+  border: none;
+  padding: 20px 25px;
   background-color: #DF6951;
   margin-top: 25px;
 }
@@ -47,11 +47,18 @@ line-height: 25px;
 text-align: center;
 color: #FFFFFF;
 }
-.about-promotion{
+.about-promotion-text-img{
   display: flex;
+  justify-content: center;
+  margin: 130px;
+  max-width: 1350px;
+  flex: 1;
 }
-.about-img,.about-promotion-text{
-margin-left: auto;
+.about-promotion{
+display: flex;
+justify-content: center;
+align-items: center;
+
 
 }
 .video{
@@ -73,7 +80,6 @@ margin-left: auto;
 .wonderlust-video{
   position: relative;
 }
-
 .about-trend-section-container {
     display: flex;
     justify-content: center;

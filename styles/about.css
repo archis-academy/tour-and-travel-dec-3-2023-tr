@@ -10,7 +10,9 @@
     box-sizing: border-box;
 }
 
-.promotion{
+ 
+
+.promotion-small-title{
   font-family: "Poppins", sans;
   font-weight: 700;
   font-size: 18px;
@@ -18,7 +20,7 @@
   letter-spacing: 2px;
   color: #DF6951;
 }
-.promotion-title{
+.promotion-big-title{
   font-family: "Volkhov", sans;
   font-weight: 700;
   font-size: 50px;
@@ -31,8 +33,7 @@ font-weight: 400;
 line-height: 26px;
 color: #000000;
 }
-.button{
- 
+.about-promotion-button{
   border-radius: 10px;
   border: none;
   padding: 20px 25px;

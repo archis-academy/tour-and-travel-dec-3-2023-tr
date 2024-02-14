@@ -248,6 +248,36 @@ justify-content: space-around;
   background-color: #b13b23;
 }
 /* Honeymoon Specials Packages - Finish */
+/* homepage-liberty-banner style start */
+.liberty-img{
+  width: 100%;
+  
+}
+.liberty-statue{
+  margin: 100px 0px;
+}
+.liberty-banner-text{
+  font-family: "Volkhov", sans;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 65px;
+  display: flex;
+ justify-content: center;
+transform: translate(-20%, -285%);
+color: #FFFFFF;  
+}
+.line-liberty-decoration{
+  display: flex;
+  transform: translate(33%, -980%);
+  
+}
+
+
+
+
+
+
+/*  homepage-liberty-banner- Finish */
 
 /* Promotion Explore Packages - Start */
 

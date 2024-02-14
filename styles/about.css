@@ -1,17 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
-
-
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
 }
-
- 
-
 .promotion-small-title{
   font-family: "Poppins", sans;
   font-weight: 700;
@@ -40,7 +35,7 @@ color: #000000;
   background-color: #DF6951;
   margin-top: 25px;
 }
-h6{
+.button-title{
 font-family: "Poppins", sans;
 font-weight: 600;
 font-size: 16.5px;
@@ -59,8 +54,6 @@ color: #FFFFFF;
 display: flex;
 justify-content: center;
 align-items: center;
-
-
 }
 .video{
   width: 100%;

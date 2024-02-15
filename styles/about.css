@@ -95,7 +95,7 @@ align-items: center;
   
   .shell-image {
     position: absolute;
-    right: -20px;
+    right: 0px;
     top: 30px;
   }
   

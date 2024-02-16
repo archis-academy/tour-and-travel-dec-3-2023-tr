@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 
 * {
@@ -8,6 +10,7 @@
   box-sizing: border-box;
 }
 /* General Settings Finish */
+
 /*Partners-Section styles*/
 .hompage-partner-section{
   width: 100%;
@@ -27,7 +30,7 @@ justify-content: space-around;
 /* Partners-Section style END /*
 
 /* Best-Services styles*/
-.best-services {
+.best-services{
   margin: 100px 20px;
 }
 .Homepage-best-services-1 {

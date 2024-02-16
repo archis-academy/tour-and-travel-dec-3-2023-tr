@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -13,3 +16,140 @@ a {
   color: inherit;
 }
 
+
+.items-comp{
+  display: grid;
+  gap: 20px;
+  flex: 1;
+}
+
+.items-dest{
+  display: grid;
+  gap: 20px;
+  flex: 1;
+}
+
+.company-text {
+  color: #181433;
+}
+
+.company-and-destinitions-links .links-items-footer {
+  font-weight: 400;
+  transition: all 0.3s ease;
+}
+
+.travel-logo-desciption-screen{
+  flex: 1;
+}
+
+.company-and-destinitions-links .links-items-footer:hover{
+  color: #df6951;
+}
+
+.homepage-footer-container {
+  margin-top: 94px;
+}
+
+.icons-settings-footer{
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.company-and-destinitions-links {
+  display: flex;
+  max-width: 1350px;
+  align-items: center;
+  font-family: "Manrope" , sans-serif;
+  margin: 0 auto;
+}
+
+
+.logo-mini-text {
+  color: #757095;
+  font-family: "Manrope", sans-serif;
+}
+
+
+.footer-icons-img{
+  cursor: pointer;
+}
+
+.social-media-icons-footer{
+  padding-top: 20px;
+}
+
+
+.join-our-text {
+  color: #181433;
+  font-family: "Manrope" , sans-serif;
+  font-size: 22px;
+  padding-bottom: 24px;
+}
+
+.your-email-adress {
+  padding: 16px;
+  border: none;
+  background: #eef;
+}
+
+.travel-footer-logo-description{
+  position: relative;
+  max-width: 1610px;
+  margin: auto;
+  padding-bottom: 80px;
+}
+
+.your-email-adress:focus {
+  outline: none;
+}
+
+.subsicribe-btn {
+  padding: 14px;
+  border-radius: 10px;
+  background: #df6951;
+  border: none;
+  color: #fff;
+  font-family: "Manrope" , sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.subsicribe-btn:hover{
+  background: #a2422f;
+}
+
+.join-our-paragraph {
+  padding-top: 25px;
+  color: #181433;
+  font-family: "Manrope" , sans-serif;
+  opacity: 0.5;
+}
+
+.footer-copyright-text{
+color: #181433;
+text-align: center;
+padding-top: 20px;
+}
+
+.copyright-text{
+  font-family: "Manrope" , sans-serif;
+  font-size: 14px;
+}
+
+
+.copyright-line{
+  color: #E5E5EA;
+  opacity: 0.4;
+  max-width: 1350px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+
+.footer-background-img{
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}

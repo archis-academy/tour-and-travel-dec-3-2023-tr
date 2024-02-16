@@ -4,29 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tour and Travel About</title>
-    <link rel="stylesheet" href="styles/about.css">
-    <link rel="stylesheet" href="styles/shared.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/shared.css" />
   </head>
   <body>
     <header class="about-us-page-container">
       <nav class="about-navigation-menu">
-        <img src="images/logo_2.png">
+        <img src="images/logo_2.png" />
         <ul class="about-navigation-items">
           <li><a class="about-page-nav-item" href="index.html">Home</a></li>
-          <li><a id="about-link-active" class="about-page-nav-item" href="about.html">About</a></li>
-            <li class="services-link-list"><a class="homepage-item" href="#">Services<i id="services-down" class="fa-solid fa-chevron-down"></i></a>
-              <div class="services-links-items">
-                <ul>
-                  <li><a class="services-item" href="#">Honeymoon Packages</a></li>
-                  <li><a class="services-item" href="#">Tours Packages</a></li>
-                  <li><a class="services-item" href="#">Musical Events</a></li>
-                  <li><a class="services-item" href="#">Build Package</a></li>
-                  <li><a class="services-item" href="#">Others</a></li>
-                </ul>
-              </div>
-            </li>
-          <li><a class="about-page-nav-item" href="#">Upcomming Packages</a></li>
+          <li>
+            <a
+              id="about-link-active"
+              class="about-page-nav-item"
+              href="about.html"
+              >About</a
+            >
+          </li>
+          <li class="services-link-list">
+            <a class="homepage-item" href="#"
+              >Services<i
+                id="services-down"
+                class="fa-solid fa-chevron-down"
+              ></i
+            ></a>
+            <div class="services-links-items">
+              <ul>
+                <li>
+                  <a class="services-item" href="#">Honeymoon Packages</a>
+                </li>
+                <li><a class="services-item" href="#">Tours Packages</a></li>
+                <li><a class="services-item" href="#">Musical Events</a></li>
+                <li><a class="services-item" href="#">Build Package</a></li>
+                <li><a class="services-item" href="#">Others</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <a class="about-page-nav-item" href="#">Upcomming Packages</a>
+          </li>
         </ul>
         <button class="touch-Btn">Get in Touch</button>
       </nav>
@@ -35,28 +51,66 @@
         <h1 class="about-us-text">About Us</h1>
       </div>
     </header>
+    <div class="about-promotion">
+      <div class="about-promotion-text-img">
+        <div class="about-promotion-text">
+          <div class="promotion-small-title"><h5>PROMOTİON</h5></div>
+          <div class="promotion-big-title">
+            We Provide You Best <br />Europe Sightseeing Tours
+          </div>
+          <div class="promotion-paragraph">
+            <p>
+              Et labore harum non nobis ipsum eum molestias mollitia et corporis
+              <br />
+              praesentium a laudantium internos. Non quis eius quo eligendi
+              corrupti <br />
+              et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus
+              <br />
+              illum aut optio quibusdam!
+            </p>
+          </div>
+          <button type="button" class="about-promotion-button">
+            <h6 class="button-title">View Packages</h6>
+          </button>
+        </div>
+        <div class="about-img">
+          <img src="images/about/about-context-img01.png" />
+        </div>
+      </div>
+    </div>
+    <div class="wonderlust-video">
+      <video class="video" autoplay="autoplay" loop="loop">
+        <source src="images/about/about-video01.mp4" type="video/mp4" />
+      </video>
+      <div class="media-text"><h1>Wanderlust</h1></div>
+    </div>
     <div class="about-trend-section-container">
-      <img class="shell-image" src="images/about/about-trend-shell-img.png">
+      <img class="shell-image" src="images/about/about-trend-shell-img.png" />
       <div class="about-trend-image">
-          <img class="trend-img" src="images/about/about-trend-img.png">
+        <img class="trend-img" src="images/about/about-trend-img.png" />
       </div>
       <div class="about-trend-page-description">
-     <h5 class="trend-text">TREND</h5>
-     <h1 class="our-popular-text">Our Popular Tour Plans</h1>
-     <p class="trend-paragraph" >Et labore harum non nobis ipsum eum molestias mollitia et corporis <br> praesentium a laudantium. Et labore harum non nobis ipsum eum <br>molestias mollitia et corporis praesentium a laudantium.</p>
+        <h5 class="trend-text">TREND</h5>
+        <h1 class="our-popular-text">Our Popular Tour Plans</h1>
+        <p class="trend-paragraph">
+          Et labore harum non nobis ipsum eum molestias mollitia et corporis
+          <br />
+          praesentium a laudantium. Et labore harum non nobis ipsum eum
+          <br />molestias mollitia et corporis praesentium a laudantium.
+        </p>
         <div class="number-screens">
-               <div class="vacation-screen">
-                <img src="images/about/about-statistic-img01.png">
-                <h3 id="tourNameText">Vacations</h3>
-               </div>
-            <div class="honeymoon-screen">
-              <img src="images/about/about-statistic-img02.png">
-             <h3 id="tourNameText" class="honeymoon-text">Honeymoon</h3>
-            </div>
-             <div class="musical-screen">
-              <img src="images/about/about-statistic-img03.png">
-             <h3 id="tourNameText">Musical Events</h3>
-             </div>
+          <div class="vacation-screen">
+            <img src="images/about/about-statistic-img01.png" />
+            <h3 id="tourNameText">Vacations</h3>
+          </div>
+          <div class="honeymoon-screen">
+            <img src="images/about/about-statistic-img02.png" />
+            <h3 id="tourNameText" class="honeymoon-text">Honeymoon</h3>
+          </div>
+          <div class="musical-screen">
+            <img src="images/about/about-statistic-img03.png" />
+            <h3 id="tourNameText">Musical Events</h3>
+          </div>
         </div>
       </div>
     </div>

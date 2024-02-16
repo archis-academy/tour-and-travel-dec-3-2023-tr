@@ -17,7 +17,10 @@
   background-image: url(/images/homepage-background.png);
   height: 100vh;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
   margin: auto;
+  position: relative;
 }
 
 .logo-img{
@@ -26,8 +29,7 @@
 
 .scroll-png {
   position: absolute;
-  bottom: -50%;
-  transform: translateY(-65%);
+  bottom: -200px;
 }
 
 #services-down {
@@ -93,8 +95,9 @@
   background: rgba(243, 243, 243, 0.6);
   backdrop-filter: blur(8px);
   padding: 20px 40px;
+  gap: 20px;
   font-family: "Poppins", sans-serif;
-  max-width: 940px;
+  max-width: 820px;
 }
 
 .blur-links-item {
@@ -131,11 +134,11 @@
 }
 
 .list-input {
-  padding: 15px;
   border: none;
   font-size: 16px;
   font-family: "DM Sans", sans-serif;
   color: #fff;
+  padding-left: 10px;
   border-radius: 10px;
   background-color: transparent;
   align-items: center;
@@ -143,10 +146,6 @@
 
 ::placeholder {
   color: #fff;
-}
-
-.list-input {
-  width: 220px;
 }
 
 .list-input:focus {

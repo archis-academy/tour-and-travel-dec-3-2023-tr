@@ -53,11 +53,23 @@
               </li>
               <img src="images/line.png" />
               <li>
-                <input class="list-input" placeholder="Travel Type">
+                <input class="list-input" list="TravelType" placeholder="Travel Type">
+                <datalist class="list" id="TravelType">
+                  <option class="travel-type-item" value="Nature Tours"></option>
+                  <option class="travel-type-item" value="Honeymoon Tours" selected>Honeymoon Tours</option>
+                  <option class="travel-type-item" value="Holiday Village Tours"></option>
+                  <option class="travel-type-item" value="Others"></option>
+                </datalist>
               </li>
               <img src="images/line.png"/>
               <li class="duration-link-list">
-                <input class="list-input" placeholder="Duration">
+                <input class="list-input" list="DurationType" placeholder="Duration">
+                <datalist class="list" id="DurationType">
+                  <option class="travel-type-item" value="1 Month"></option>
+                  <option class="travel-type-item" value="1 Week" selected>1 Week</option>
+                  <option class="travel-type-item" value="1 Year"></option>
+                  <option class="travel-type-item" value="Others"></option>
+                </datalist>
               </li>
             </ul>
             <button class="blur-btn">Submit</button>

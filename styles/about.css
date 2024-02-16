@@ -1,15 +1,79 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
-
-
 *{
     margin: 0;
     padding: 0;
     text-decoration: none;
     box-sizing: border-box;
 }
-
+.promotion-small-title{
+  font-family: "Poppins", sans;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 2px;
+  color: #DF6951;
+}
+.promotion-big-title{
+  font-family: "Volkhov", sans;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 71px;
+}
+.promotion-paragraph{
+font-family: "Poppins", sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: #000000;
+}
+.about-promotion-button{
+  border-radius: 10px;
+  border: none;
+  padding: 20px 25px;
+  background-color: #DF6951;
+  margin-top: 25px;
+}
+.button-title{
+font-family: "Poppins", sans;
+font-weight: 600;
+font-size: 16.5px;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+}
+.about-promotion-text-img{
+  display: flex;
+  justify-content: center;
+  margin: 130px;
+  max-width: 1350px;
+  flex: 1;
+}
+.about-promotion{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.video{
+  width: 100%;
+}
+.media-text{
+  font-family: "Yesteryear", sans;
+  font-size: 50px;
+  line-height: 225px;
+  display: flex;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFFFF;
+  letter-spacing: 8px;
+  position: absolute;   
+}
+.wonderlust-video{
+  position: relative;
+}
 .about-trend-section-container {
     display: flex;
     justify-content: center;
@@ -31,7 +95,7 @@
   
   .shell-image {
     position: absolute;
-    right: -20px;
+    right: 0px;
     top: 30px;
   }
   
@@ -102,8 +166,7 @@
       flex-direction: column;
     }
   }
-
-.about-explore-packages-container {
+  .about-explore-packages-container {
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -260,6 +260,23 @@
   margin-left: -40px;
 }
 
+.hompage-partner-section{
+  width: 100%;
+  background-color: #F5F5F5;
+}
+.partner-section-logo{
+display: flex;
+max-width: 1920px;
+height: 200px;
+align-items: center;
+margin: auto;
+justify-content: space-around;
+}
+.logo-img{
+  height: 50px;
+}
+
+
 /*Partners-Section styles*/
 .hompage-partner-section {
   width: 100%;

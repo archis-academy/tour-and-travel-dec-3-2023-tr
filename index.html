@@ -6,14 +6,95 @@
     <title>Tour and Travel</title>
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/shared.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&family=Volkhov&display=swap"
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
     />
   </head>
   <body>
+    <header class="homepage-hero-section-container">
+      <nav class="navigation-links-items-container">
+        <div class="navigation-items">
+          <img class="logo-img" src="images/logo_2.png"/>
+          <ul class="homepage-link-items">
+            <li><a class="homepage-item" href="#">Home</a></li>
+            <li><a class="homepage-item" href="about.html">About</a></li>
+            <li class="services-link-list"><a class="homepage-item" href="#">Services<i id="services-down" class="fa-solid fa-chevron-down"></i></a>
+              <div class="services-links-items">
+                <ul>
+                  <li><a class="services-item" href="#">Honeymoon Packages</a></li>
+                  <li><a class="services-item" href="#">Tours Packages</a></li>
+                  <li><a class="services-item" href="#">Musical Events</a></li>
+                  <li><a class="services-item" href="#">Build Package</a></li>
+                  <li><a class="services-item" href="#">Others</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a class="homepage-item" href="#">Upcomming Packages</a></li>
+          </ul>
+          <button class="homepage-touch-btn">Get in Touch</button>
+        </div>
+      </nav>
+      <div class="homepage-description-container">
+        <div class="homepage-description-screen">
+          <img class="vektor-text-effect" src="images/Vector-1.png" />
+          <h1 class="general-text">
+            No matter where<br/>
+            you’re going to, we’ll <br/>
+            take you there
+          </h1>
+          <div class="blur-screen-links-item">
+            <ul class="blur-links-item">
+              <li>
+                <input class="list-input" placeholder="Where To?">
+              </li>
+              <img src="images/line.png" />
+              <li>
+                <input class="list-input" list="TravelType" placeholder="Travel Type">
+                <datalist class="list" id="TravelType">
+                  <option class="travel-type-item" value="Nature Tours"></option>
+                  <option class="travel-type-item" value="Honeymoon Tours" selected>Honeymoon Tours</option>
+                  <option class="travel-type-item" value="Holiday Village Tours"></option>
+                  <option class="travel-type-item" value="Others"></option>
+                </datalist>
+              </li>
+              <img src="images/line.png"/>
+              <li class="duration-link-list">
+                <input class="list-input" list="DurationType" placeholder="Duration">
+                <datalist class="list" id="DurationType">
+                  <option class="travel-type-item" value="1 Month"></option>
+                  <option class="travel-type-item" value="1 Week" selected>1 Week</option>
+                  <option class="travel-type-item" value="1 Year"></option>
+                  <option class="travel-type-item" value="Others"></option>
+                </datalist>
+              </li>
+            </ul>
+            <button class="blur-btn">Submit</button>
+          </div>
+          <div class="user-profile-images">
+            <img class="user-avatar-john" src="images/user-avatar2.png" />
+            <img class="user-avatar-olivia" src="images/user-avatar3.png" />
+            <img class="user-avatar-jack" src="images/user-avatar4.png" />
+            <img class="user-avatar-alexander" src="images/user-avatar1.png" />
+            <img class="user-avatar-boris" src="images/user-avatar5.png" />
+            <img class="user-avatar-cedric" src="images/user-avatar6.png" />
+            <div class="add-profile-btn">
+              <h5 class="add-profile-plus">+</h5>
+            </div>
+            <div class="user-profile-paragraph">
+              <p class="user-paragraph-desc">2,500 people booked Tommorowland Event in last 24 hours</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="change-page-buttons">
+        <img class="three-change-page" src="images/three-line.png">
+      </div>
+      <img class="scroll-png" src="images/scroll.png" />
+    </header>
     <div class="hompage-partner-section">
       <div class="partner-section-logo">
         <img class="logo-img" src="images/partner-logo3.png">

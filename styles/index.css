@@ -249,26 +249,35 @@ justify-content: space-around;
 }
 /* Honeymoon Specials Packages - Finish */
 /* homepage-liberty-banner style start */
-.liberty-img{
-  width: 100%;
-  
+.homepage-liberty-banner{
+background-image: url("../images/liberty-statue-img.png");
+background-repeat: no-repeat;
+max-height: 400px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+max-width: 1950px;
+margin: auto;
 }
 .liberty-statue{
-  margin: 100px 0px;
+font-family: "Volkhov", sans;
+font-weight: 700;
+font-size: 25px;
+line-height: 65px;
+display: flex;
+justify-content: center;
+margin: 130px;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+color: #FFFFFF;
+position: relative;
 }
-.liberty-banner-text{
-  font-family: "Volkhov", sans;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 65px;
-  display: flex;
- justify-content: center;
-transform: translate(-20%, -285%);
-color: #FFFFFF;  
+.line-liberty{
+  right: -80px;
+  bottom: -60px;
+  position: absolute;
 }
-
-  
-
 /*  homepage-liberty-banner- Finish */
 
 /* Promotion Explore Packages - Start */

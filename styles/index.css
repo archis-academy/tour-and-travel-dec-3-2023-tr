@@ -564,3 +564,27 @@ color: #FFFFFF;
 
 /* Trending Your Packages - Finish */
 
+/* Promotions Explore Packages Responsive Start */
+
+@media only screen and (max-width: 1120px) {
+  .left-text-line-effect{
+    display: none;
+  }
+  .right-text-line-effect{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .promotion-text{
+    font-size: 12px;
+  }
+  .explore-big-text{
+    font-size: 22px;
+  }
+  .view-packages-btn{
+    font-size: 8px;
+  }
+}
+
+/* Promotions Explore Packages Responsive Finish */

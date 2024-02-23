@@ -564,3 +564,25 @@ color: #FFFFFF;
 
 /* Trending Your Packages - Finish */
 
+
+
+/* Honeymoon Specials Responsive Start */
+
+@media screen and (max-width: 1130px) {
+  .honeymoon-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .honeymoon-image{
+    width: 450px;
+    margin-left: -66px;
+  }
+}
+
+@media screen and (max-width: 1550px) {
+  .honeymoon-wrapper{
+    text-align: center;
+  }
+}
+
+/* Honeymoon Specials Responsive Finish */

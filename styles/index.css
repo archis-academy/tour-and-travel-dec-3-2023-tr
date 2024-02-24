@@ -252,31 +252,30 @@ justify-content: space-around;
 .homepage-liberty-banner{
 background-image: url("../images/liberty-statue-img.png");
 background-repeat: no-repeat;
-max-height: 400px;
+height: 400px;
 display: flex;
-justify-content: space-between;
+justify-content: center;
 align-items: center;
-max-width: 1950px;
-margin: auto;
+background-position: center;
+background-size: cover;
+width: 100%;
 }
 .liberty-statue{
 font-family: "Volkhov", sans;
 font-weight: 700;
-font-size: 25px;
-line-height: 65px;
+font-size: clamp(14px , 4vw , 28px);
+line-height: clamp(45px , 4vw , 62px);
 display: flex;
-justify-content: center;
-margin: 130px;
 flex-direction: column;
-flex-wrap: wrap;
-align-items: center;
 color: #FFFFFF;
 position: relative;
+max-width: 1250px;
+flex: 1;
 }
 .line-liberty{
-  right: -80px;
-  bottom: -60px;
-  position: absolute;
+ max-width: 620px;
+text-align: end;
+
 }
 /*  homepage-liberty-banner- Finish */
 

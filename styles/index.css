@@ -248,6 +248,61 @@ justify-content: space-around;
   background-color: #b13b23;
 }
 /* Honeymoon Specials Packages - Finish */
+/* homepage-favorite-resorts start */
+.orange-title{
+font-family: "poppins" ,sans;
+font-weight: 700;
+font-size: clamp(9px , 4vw , 18px);
+line-height: 27px;
+color: #DF6951;
+}
+.homepage-favorite-resorts-big-title{
+font-family: "volkhov" ,sans;
+ font-size: clamp(30px , 4vw , 50px);
+ font-weight: 700;
+ line-height: 64.5px;
+color: #181E4B;
+}
+.container-title{
+font-size: clamp(12px , 4vw , 16px);
+font-family: "poppins" ,sans;
+font-weight: 700;
+line-height: 20px;
+color: #5E6282;
+}
+.resort-container-text-img{
+display: flex;
+justify-content: space-between;
+}
+.container-paragraph{
+font-size: clamp(12px , 4vw , 16px);
+font-family: "poppins" ,sans;
+font-weight: 400;
+line-height: 20px;
+color: #5E6282;
+}
+.container-img{
+  width: 47px;
+  height: 47px;
+}
+.favorite-resorts{
+  display: flex;
+  flex-direction: column;
+}
+.homepage-favorite-resorts-container{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+max-width: 1350px;
+margin: auto;
+padding: 55px 18px;
+}
+@media only screen and (max-width: 1100px) {
+  .homepage-favorite-resorts{
+    text-align: center;
+  }
+}
+/* homepage-favorite-resorts end */
 /* homepage-liberty-banner style start */
 .homepage-liberty-banner{
 background-image: url("../images/liberty-statue-img.png");

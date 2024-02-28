@@ -258,9 +258,9 @@ color: #DF6951;
 }
 .homepage-favorite-resorts-big-title{
 font-family: "volkhov" ,sans;
- font-size: clamp(30px , 4vw , 50px);
+ font-size: clamp(24px , 4vw , 50px);
  font-weight: 700;
- line-height: 64.5px;
+ line-height: clamp(32px , 4vw , 64.5px);
 color: #181E4B;
 }
 .container-title{
@@ -272,7 +272,7 @@ color: #5E6282;
 }
 .resort-container-text-img{
 display: flex;
-justify-content: space-between;
+gap: 28px;
 }
 .container-paragraph{
 font-size: clamp(12px , 4vw , 16px);
@@ -289,6 +289,12 @@ color: #5E6282;
   display: flex;
   flex-direction: column;
 }
+.container-text{
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  padding-top: 40px;
+}
 .homepage-favorite-resorts-container{
 display: flex;
 justify-content: space-between;
@@ -296,12 +302,15 @@ flex-wrap: wrap;
 max-width: 1350px;
 margin: auto;
 padding: 55px 18px;
+gap: 46px;
 }
-@media only screen and (max-width: 1100px) {
-  .homepage-favorite-resorts{
-    text-align: center;
-  }
+.homepage-favorite-resorts-img{
+  max-width: 645px;
 }
+.container-img{
+  font-size: clamp(10px , 4vw , 47px);
+}
+
 /* homepage-favorite-resorts end */
 /* homepage-liberty-banner style start */
 .homepage-liberty-banner{

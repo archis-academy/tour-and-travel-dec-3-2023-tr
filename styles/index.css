@@ -252,6 +252,7 @@ justify-content: space-around;
 .homepage-liberty-banner{
 background-image: url("../images/liberty-statue-img.png");
 background-repeat: no-repeat;
+background-position: 70%;
 height: 400px;
 display: flex;
 justify-content: center;
@@ -263,8 +264,6 @@ width: 100%;
 .liberty-statue{
 font-family: "Volkhov", sans;
 font-weight: 700;
-font-size: clamp(14px , 4vw , 28px);
-line-height: clamp(45px , 4vw , 62px);
 display: flex;
 flex-direction: column;
 color: #FFFFFF;
@@ -272,11 +271,21 @@ position: relative;
 max-width: 1250px;
 flex: 1;
 }
-.line-liberty{
- max-width: 620px;
-text-align: end;
-
+.liberty-statue h1{
+  font-size: clamp(25px , 4vw , 40px);
+  line-height: clamp(40px , 4vw , 60px);
 }
+.line-liberty{
+ max-width: 565px;
+text-align: end;
+line-height: clamp(40px , 4vw , 60px);
+}
+@media only screen and (max-width: 585px){
+  .line-liberty{
+   
+  }
+}
+
 /*  homepage-liberty-banner- Finish */
 
 /* Promotion Explore Packages - Start */

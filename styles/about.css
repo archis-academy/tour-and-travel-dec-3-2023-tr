@@ -159,9 +159,70 @@ align-items: center;
       padding-top: 20px;
     }
   }
+
   @media only screen and (max-width: 624px){
     .number-screens{
       display: flex;
       flex-direction: column;
     }
+  }
+  .about-explore-packages-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .first-text{
+    padding: 50px 0 50px 0;
+  }
+  
+  .container-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(0 , 363px));
+    max-width: 1600px;
+    margin: auto;
+    gap: 36px;
+    justify-content: center;
+
+  }
+
+
+  .city-and-money-text{
+    position: absolute;
+    bottom: 30px;
+    padding: 0 30px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: "Poppins" , sans-serif;
+  }
+
+  .item3{
+    grid-row: auto / span 2;
+  }
+  
+  .container-items > #column-item {
+    padding: 4px;
+    position: relative;
+  }
+
+  .free-image{
+    width: 364px;
+    height: 364px;
+    object-fit: cover;
+  }
+  
+  .international-text{
+    font-size: 50px;
+    font-family: "Volkhov" , sans-serif;
+  }
+  
+  .explore-more-text{
+    font-size: 18px;
+    color: #df6951;
+    letter-spacing: 0.8;
+    font-family: "Poppins" , sans-serif;
   }

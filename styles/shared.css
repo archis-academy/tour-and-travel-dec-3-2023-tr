@@ -153,3 +153,17 @@ padding-top: 20px;
   right: 0;
   bottom: 0;
 }
+
+@media only screen and (max-width: 860px) {
+  .company-and-destinitions-links{
+   flex-wrap: wrap;
+   gap: 30px;
+   text-align: center;
+  }
+  .icons-settings-footer{
+   justify-content: center;
+  }
+}
+
+
+

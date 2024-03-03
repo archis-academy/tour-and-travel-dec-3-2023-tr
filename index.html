@@ -16,6 +16,79 @@
   </head>
   <body>
     <header class="homepage-hero-section-container">
+      <div id="touchBuild-screen" class="touchBuild-screen">
+        <i id="closeBtn" class="fa-solid fa-circle-xmark"></i>
+        <div class="text">
+          <h1 class="big-text-package">Build Your Own Package</h1>
+        </div>
+        <div class="inputlar">
+          <div class="inputs">
+            <p class="enter-text">Enter destination (country, region or city)</p>
+            <input class="country-text" type="text">
+            <i class="fa-solid fa-circle-info"></i>
+          </div>
+          <div class="inputs">
+            <p class="enter-text">Enter destination (country, region or city)</p>
+            <input class="country-text" type="text">
+            <i class="fa-solid fa-circle-info"></i>
+            <a href="#"><h5>+ Add Destinations</h5></a>
+          </div>
+          <div class="inputs dates">
+            <div class="inputs-design">
+              <input class="date" type="text">
+              <p class="enter-text datescreen">Date Range</p>
+              <input class="guest" type="text">
+              <p class="enter-text guestscreen">Guest</p>
+              <i id="guest-down" class="fa-solid fa-chevron-down"></i>
+              <p class="enter-text enddatetext">End Date</p>
+            </div>
+          </div>
+          <div class="secimekrani">
+            <a href="#"><h5>Activities preferences (optional)</h5></a>
+            <div class="checkbox-list">
+              <input class="checkboxstyle" type="checkbox" id="checkbox1">
+              <label for="checkbox1">Culture</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox2">
+              <label for="checkbox2">Outdoors</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox3">
+              <label for="checkbox3">Relaxing</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox4">
+              <label for="checkbox4">Wildlife</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox5">
+              <label for="checkbox5">Romantic</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox6">
+              <label for="checkbox6">Religious</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox7">
+              <label for="checkbox7">Hiking</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox8">
+              <label for="checkbox8">Musical</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox9">
+              <label for="checkbox9">Shopping</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox10">
+              <label for="checkbox10">Business</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox11">
+              <label for="checkbox11">Museams</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox12">
+              <label for="checkbox12">Party</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox13">
+              <label for="checkbox13">Traditions</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox14">
+              <label for="checkbox14">Walks</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox15">
+              <label for="checkbox15">Fishings</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox16">
+              <label for="checkbox16">Healthcare</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox17">
+              <label for="checkbox17">Accomodation</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox18">
+              <label for="checkbox18">Guide</label>
+              <input class="checkboxstyle" type="checkbox" id="checkbox19">
+              <label for="checkbox19">Cruise</label>
+            </div>
+            <button class="build-btn">Build Package</button>
+          </div>
+        </div>
+      </div>
       <nav class="navigation-links-items-container">
         <div class="navigation-items">
           <img class="logo-img" src="images/logo_2.png"/>
@@ -35,8 +108,10 @@
             </li>
             <li><a class="homepage-item" href="#">Upcomming Packages</a></li>
           </ul>
-          <button class="homepage-touch-btn">Get in Touch</button>
+          <button id="touchBtn" class="homepage-touch-btn">Get in Touch</button>
+          <i id="hamburgerMenu" class="fa-solid fa-bars"></i>
         </div>
+       
       </nav>
       <div class="homepage-description-container">
         <div class="homepage-description-screen">
@@ -219,7 +294,7 @@
         </div>
       </div>
     </div>
-<div class="homepage-liberty-banner">
+    <div class="homepage-liberty-banner">
 <div class="liberty-statue">
 <img class="liberty-img" src="images/liberty-statue-img.png" >
 </div>
@@ -229,7 +304,7 @@
 <div class="line-liberty-decoration">
   <img class="line-liberty" src="images/liberty-statue-Line.png" >
 </div>
-</div>
+    </div>
     <div class="promotions-explore-container">
       <div class="explore-left-screen"> 
         <div class="explore-description">
@@ -380,4 +455,5 @@
       </div>
     </div>
   </body>
+  <script src="script.js"></script>
 </html>

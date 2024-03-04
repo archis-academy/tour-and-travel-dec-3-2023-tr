@@ -283,7 +283,11 @@ color: #5E6282;
 }
 .container-img{
   width: 47px;
-  height: 47px;
+  height:47px;
+}
+.container-img img{
+  width: clamp(32px , 4vw , 47px);
+  height: clamp(32px , 4vw , 47px);
 }
 .favorite-resorts{
   display: flex;
@@ -295,6 +299,7 @@ color: #5E6282;
   gap: 26px;
   padding-top: 40px;
 }
+
 .homepage-favorite-resorts-container{
 display: flex;
 justify-content: space-between;
@@ -305,7 +310,10 @@ padding: 55px 18px;
 gap: 46px;
 }
 .homepage-favorite-resorts-img{
-  max-width: 645px;
+  max-width: 700px;
+}
+.homepage-favorite-resorts-img img{
+  width: 100%;
 }
 .container-img{
   font-size: clamp(10px , 4vw , 47px);

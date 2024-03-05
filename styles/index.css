@@ -272,37 +272,38 @@ color: #5E6282;
 }
 .resort-container-text-img{
 display: flex;
-gap: 28px;
+gap:  clamp(20px , 4vw , 37px);
 }
 .container-paragraph{
-font-size: clamp(12px , 4vw , 16px);
 font-family: "poppins" ,sans;
 font-weight: 400;
 line-height: 20px;
 color: #5E6282;
 }
 .container-img{
-  width: 47px;
-  height:47px;
+width: 47px;
+height:47px;
 }
 .container-img img{
-  width: clamp(32px , 4vw , 47px);
-  height: clamp(32px , 4vw , 47px);
+width: clamp(32px , 4vw , 47px);
 }
 .favorite-resorts{
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 .container-text{
-  display: flex;
-  flex-direction: column;
-  gap: 26px;
-  padding-top: 40px;
+display: flex;
+flex-direction: column;
+gap:  clamp(18px , 4vw , 26px);
+padding-top: 40px;
 }
-
+.homepage-favorite-resorts-text-1 p,
+.homepage-favorite-resorts-text-1 h4{
+font-size: clamp(12px , 4vw , 16px);
+}
 .homepage-favorite-resorts-container{
 display: flex;
-justify-content: space-between;
+justify-content: center;
 flex-wrap: wrap;
 max-width: 1350px;
 margin: auto;
@@ -310,15 +311,16 @@ padding: 55px 18px;
 gap: 46px;
 }
 .homepage-favorite-resorts-img{
-  max-width: 700px;
+max-width: 700px;
 }
 .homepage-favorite-resorts-img img{
-  width: 100%;
+width: 100%;
 }
-.container-img{
-  font-size: clamp(10px , 4vw , 47px);
+@media only screen and (max-width:1160px) {
+.homepage-favorite-resorts-container{
+justify-content: space-between;
 }
-
+}
 /* homepage-favorite-resorts end */
 /* homepage-liberty-banner style start */
 .homepage-liberty-banner{

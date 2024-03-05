@@ -257,7 +257,7 @@ height: 400px;
 display: flex;
 justify-content: center;
 align-items: center;
-background-position: center;
+background-position-y: 20%;
 background-size: cover;
 width: 100%;
 }
@@ -269,6 +269,7 @@ flex-direction: column;
 color: #FFFFFF;
 max-width: 1250px;
 flex: 1;
+padding: 0px 20px;
 }
 .liberty-statue h1{
 font-size: clamp(25px , 4vw , 40px);
@@ -282,15 +283,15 @@ position: relative;
 position: absolute;
 bottom: -36px;
 right: -30%;
-width: clamp(225px , 24vw , 310px);
+width: clamp(180px , 24vw , 310px);
 }
 .liberty-line{
-  width: 100%;
+width: 100%;
 }
-@media only screen and (max-width;350px) {
-  .line-liberty{
-  right: -50px;
-  }
+@media only screen and (max-width:350px) {
+.line-liberty{
+right: -10px;
+}
 }
 /*  homepage-liberty-banner- Finish */
 

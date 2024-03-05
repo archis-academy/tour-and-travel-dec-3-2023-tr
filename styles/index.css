@@ -11,6 +11,10 @@
 .hompage-partner-section{
   width: 100%;
   background-color: #F5F5F5;
+  white-space: nowrap;
+  position: relative;
+  display: flex;
+  overflow: hidden;
 }
 .partner-section-logo{
 display: flex;
@@ -19,9 +23,48 @@ height: 200px;
 align-items: center;
 margin: auto;
 justify-content: space-around;
+animation: 20s slide infinite linear;
+margin: 0px 60px;
+gap: 7pc;
+
+}
+.hompage-partner-section:hover .partner-section-logo{
+  animation-play-state: paused;
 }
 .logo-img{
   height: 50px;
+}
+.hompage-partner-section::before{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  border-radius: 30px;
+  content: "" ;
+  background: linear-gradient(to left, rgba(255,255,255,0),white) ;
+  z-index: 1;
+  opacity: 0.5;
+}
+.hompage-partner-section::after{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  border-radius: 30px;
+  content: "";
+  z-index: 2;
+  background: linear-gradient(to right, rgba(255,255,255,0),white);
+}
+@keyframes slide {
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100%);
+  }
+
 }
 /* Partners-Section style END /*
 
